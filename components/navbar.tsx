@@ -9,7 +9,7 @@ import {
 export default function Navbar() {
   return (
     <div className="flex flex-col">
-      <nav className="flex items-center justify-between py-2 container mx-auto">
+      <nav className="flex items-center justify-between py-3 container mx-auto">
         {/* image logo */}
         <div>
           <span className="font-bold text-base">Logo</span>
@@ -27,7 +27,7 @@ export default function Navbar() {
         <div className="container mx-auto flex justify-between items-center gap-4">
           <DropdownMenu>
             <DropdownMenuTrigger>
-              <span className="text-white text-sm font-medium py-2">FMF 2025</span>
+              <span className="text-white text-sm font-medium py-3">FMF 2025</span>
             </DropdownMenuTrigger>
             <DropdownMenuContent>
               <DropdownMenuItem>
@@ -46,7 +46,7 @@ export default function Navbar() {
           </DropdownMenu>
           <DropdownMenu>
             <DropdownMenuTrigger>
-              <span className="text-white text-sm font-medium py-2">Program</span>
+              <span className="text-white text-sm font-medium py-3">Program</span>
             </DropdownMenuTrigger>
             <DropdownMenuContent>
               <DropdownMenuItem>
@@ -60,11 +60,11 @@ export default function Navbar() {
               </DropdownMenuItem>
             </DropdownMenuContent>
           </DropdownMenu>
-          <Link href={'/registration'} className="text-white text-sm font-medium py-2">Registration</Link>
-          <Link href={'/sponsorship'} className="text-white text-sm font-medium py-2">Sponsorship</Link>
+          <Link href={'/registration'} className="text-white text-sm font-medium py-3">Registration</Link>
+          <Link href={'/sponsorship'} className="text-white text-sm font-medium py-3">Sponsorship</Link>
           <DropdownMenu>
             <DropdownMenuTrigger>
-              <span className="text-white text-sm font-medium py-2">Akomodasi & Wisata</span>
+              <span className="text-white text-sm font-medium py-3">Akomodasi & Wisata</span>
             </DropdownMenuTrigger>
             <DropdownMenuContent>
               <DropdownMenuItem>
@@ -77,7 +77,7 @@ export default function Navbar() {
           </DropdownMenu>
           <DropdownMenu>
             <DropdownMenuTrigger>
-              <span className="text-white text-sm font-medium py-2">Informasi</span>
+              <span className="text-white text-sm font-medium py-3">Informasi</span>
             </DropdownMenuTrigger>
             <DropdownMenuContent>
               <DropdownMenuItem>
