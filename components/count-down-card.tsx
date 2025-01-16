@@ -46,7 +46,7 @@ const CountdownCard: React.FC<CountdownCardProps> = ({ eventDate }) => {
   }, [eventDate]);
 
   return (
-    <div className="flex flex-col items-center justify-center w-80 p-6 bg-white shadow-md rounded-lg border border-gray-200">
+    <div className="flex flex-col items-center justify-center w-80 p-6 bg-white rounded-lg border border-gray-200">
       <h2 className="text-xl font-bold mb-4">Hitung Mundur Acara</h2>
       <div className="w-full flex justify-between space-x-4">
         <div className="text-center">
