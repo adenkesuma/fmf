@@ -60,8 +60,8 @@ export default function Navbar() {
               </DropdownMenuItem>
             </DropdownMenuContent>
           </DropdownMenu>
-          <Link href={'/registration'} className="text-white text-sm font-medium py-3">Registration</Link>
-          <Link href={'/sponsorship'} className="text-white text-sm font-medium py-3">Sponsorship</Link>
+          <Link href={'/registration'} className="text-white text-sm font-medium py-3">Pendaftaran</Link>
+          <Link href={'/sponsorship'} className="text-white text-sm font-medium py-3">Sponsor</Link>
           <DropdownMenu>
             <DropdownMenuTrigger>
               <span className="text-white text-sm font-medium py-3">Akomodasi & Wisata</span>
