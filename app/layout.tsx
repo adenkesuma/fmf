@@ -3,6 +3,7 @@ import { Nunito_Sans } from "next/font/google";
 import "./globals.css";
 import Navbar from "@/components/navbar";
 import Footer from "@/components/footer";
+import { Toaster } from "../components/ui/toaster";
 
 const geistSans = Nunito_Sans({
   variable: "--font-geist-sans",
@@ -29,6 +30,7 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${NunitoSans.variable} antialiased`}
       >
+        <Toaster />
         <Navbar />
         {children}
         <Footer />
