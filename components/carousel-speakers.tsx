@@ -26,26 +26,31 @@ export default function CarouselSpeakers() {
   }, [speakers.length]);
 
   return (
-    <div className="relative w-full h-40 overflow-hidden bg-black rounded-xl">
-      <Card key={speakers[currentIndex].name} className="rounded-xl w-full h-full border border-gray-400">
+    <div className="relative w-full overflow-hidden border border-primary-color rounded-xl">
+      <Card key={speakers[currentIndex].name} className="flex items-center rounded-xl w-full h-full">
         <CardHeader>
-          <CardTitle>
-            {speakers[currentIndex].name}
-          </CardTitle>
-          <CardDescription>
-            {speakers[currentIndex].desc}
-          </CardDescription>
+          <div className="h-40 w-40 bg-gray-300 rounded-xl flex items-center justify-center">
+            {currentIndex}
+          </div>
         </CardHeader>
-        <CardContent>
-          <div className="text-gray-400">{speakers[currentIndex].title}</div>
+        <CardContent className="w-full">
+          <div>
+            <span className="text-primary-color font-medium text-xs">Sabtu, 15 April 2025</span>
+            <h3 className="font-semibold text-xl">{speakers[currentIndex].title}</h3>
+          </div>
+
+          <div className="mt-4 border-l-4 border-primary-color pl-3 bg-blue-100 w-full rounded-r-lg py-1">
+            <h4 className="text-base font-semibold">{speakers[currentIndex].name}</h4>
+            <p className="text-xs font-normal slide-in-from-top-1">{speakers[currentIndex].desc}</p>
+          </div>
         </CardContent>
       </Card>
-      <div className="absolute bottom-2 left-1/2 transform -translate-x-1/2 flex space-x-2">
+      <div className="absolute bottom-4 right-4 flex space-x-2">
         {speakers.map((_, index) => (
           <span
             key={index}
             className={`w-2 h-2 rounded-full ${
-              index === currentIndex ? "bg-white" : "bg-gray-500"
+              index === currentIndex ? "bg-gray-400" : "bg-gray-800"
             }`}
           ></span>
         ))}
