@@ -2,28 +2,30 @@
 
 import Image from "next/image";
 import Link from "next/link";
-import { useState, useEffect } from "react";
+// import { useState, useEffect } from "react";
 import CountdownCard from "./count-down-card";
+import BannerImage from '@/public/images/banner.jpg';
 
 const ImageSlider: React.FC = () => {
-  const images: string[] = [
-    "/images/flyer-1.webp",
-    "/images/flyer-2.webp",
-    "/images/flyer-3.webp",
-  ];
-  const [currentIndex, setCurrentIndex] = useState<number>(0);
+  // const images: string[] = [
+  //   "/images/flyer-1.webp",
+  //   "/images/flyer-2.webp",
+  //   "/images/flyer-3.webp",
+  // ];
+  // const [currentIndex, setCurrentIndex] = useState<number>(0);
 
-  useEffect(() => {
-    const interval = setInterval(() => {
-      setCurrentIndex((prevIndex) => (prevIndex + 1) % images.length);
-    }, 5000); 
+  // useEffect(() => {
+  //   const interval = setInterval(() => {
+  //     setCurrentIndex((prevIndex) => (prevIndex + 1) % images.length);
+  //   }, 5000); 
 
-    return () => clearInterval(interval);
-  }, [images.length]);
+  //   return () => clearInterval(interval);
+  // }, [images.length]);
 
   return (
     <div className="relative">
-      <div className="relative w-full h-[700px] overflow-hidden bg-black">
+      <Image src={BannerImage} alt="banner image" className="w-full bg-cover object-cover" />
+      {/* <div className="relative w-full h-[700px] overflow-hidden bg-black">
         {images.map((image, index) => (
           <Image
             key={index}
@@ -46,7 +48,7 @@ const ImageSlider: React.FC = () => {
             ></span>
           ))}
         </div>
-      </div>
+      </div> */}
       <div className="absolute right-10 bottom-4 p-10">
         <CountdownCard eventDate="2025-07-01T00:00:00Z"/>
         <div className="grid grid-cols-2 gap-4 mt-4">

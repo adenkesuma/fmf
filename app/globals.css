@@ -11,6 +11,14 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
+.bg-primary-color {
+  background-color: #011085;
+}
+
+.text-primary-color {
+  color: #011085;
+}
+
 @layer base {
   :root {
     --background: 0 0% 100%;
