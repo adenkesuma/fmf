@@ -1,16 +1,9 @@
-import Image from "next/image";
-import BannerBackground from "@/public/images/banner-background.png";
+import BannerTitle from "@/components/banner-title"
 
 export default function WelcomeMessage() {
   return (
     <div className="h-full">
-      <div className="relative">
-        <Image src={BannerBackground} alt="banner background" className="h-32" />
-        <div className="absolute left-1/2 top-12 -translate-x-1/2 flex items-end gap-2">
-          <h1 className="text-2xl font-medium text-primary-color">Pesan Selamat Datang</h1>
-          <div className="w-2 h-2 bg-yellow-400"></div>
-        </div>
-      </div>
+      <BannerTitle message="Pesan Selamat Datang" /> 
       <div className="mx-auto container px-20 py-6 h-screen">
         <h2 className="text-lg font-medium text-gray-500">Kepada Rekan Sejawat dan Peserta yang Terhormat</h2>
         <p className="text-sm mt-3">

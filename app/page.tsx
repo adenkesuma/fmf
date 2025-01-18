@@ -15,7 +15,7 @@ export default function Home() {
             <CarouselSpeakers />
           </div>
           <div>
-            <div className="bg-gradient-to-r from-yellow-400 to-yellow-600 rounded-t-xl py-3 px-4">
+            <div className="bg-gradient-to-r from-yellow-400 to-orange-500 rounded-t-xl py-3 px-4">
               <span className="text-lg font-medium text-primary-color">Ikuti Terus Berita Terbaru Kami</span>
             </div>
             <div className="border-x border-b border-primary-color px-4 py-4 rounded-b-xl">
@@ -27,7 +27,7 @@ export default function Home() {
                     <div className="w-1/6 text-gray-500 text-xs">{news.date.toString()}</div>
 
                     {news.tags.includes('Cancer') && (
-                      <div className="absolute -top-4 right-2 w-fit px-2 rounded-xl text-xs bg-gradient-to-r from-yellow-400 to-orange-600 text-white">New</div>
+                      <div className="absolute -top-4 right-2 w-fit px-2 rounded-xl text-xs bg-gradient-to-r from-yellow-400 to-orange-500 text-white">New</div>
                     )}
                   </div>
                 ))}
