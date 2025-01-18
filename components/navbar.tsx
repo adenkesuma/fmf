@@ -90,7 +90,7 @@ export default function Navbar() {
                 <Link href={'/venue'} className="text-sm font-medium">Lokasi</Link>
               </DropdownMenuItem>
               <DropdownMenuItem>
-                <Link href={'/jakarta-and-indonesia'} className="text-sm font-medium">Jakarta, Indonesia</Link>
+                <Link href={'/jakarta-indonesia'} className="text-sm font-medium">Jakarta, Indonesia</Link>
               </DropdownMenuItem>
               <DropdownMenuItem>
                 <Link href={'/transportation'} className="text-sm font-medium">Transportasi</Link>

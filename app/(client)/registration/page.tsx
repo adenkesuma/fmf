@@ -1,9 +1,13 @@
 import { RegistrationForm } from "./form";
+import BannerTitle from "@/components/banner-title"
 
 export default function Registration() {
   return (
-    <div>
-      <RegistrationForm />
+    <div className="h-full">
+      <BannerTitle message="Pendaftaran" /> 
+      <div className="mx-auto container px-20 py-10 min-h-screen">
+        <RegistrationForm />
+      </div>
     </div>
   );
 }
