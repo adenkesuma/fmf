@@ -5,7 +5,7 @@ export default function WelcomeMessage() {
   return (
     <div className="h-full">
       <BannerTitle message="Ringkasan" /> 
-      <div className="mx-auto container px-20 py-10 h-screen">
+      <div className="mx-auto container px-20 py-10 min-h-screen">
         <div className="flex flex-col gap-6">
           {overviewData.map(overview => (
             <div key={overview.nama} className="flex items-center gap-4 border-b pb-3">

@@ -4,8 +4,8 @@ export default function WelcomeMessage() {
   return (
     <div className="h-full">
       <BannerTitle message="Pesan Selamat Datang" /> 
-      <div className="mx-auto container px-20 py-6 h-screen">
-        <h2 className="text-lg font-medium text-gray-500">Kepada Rekan Sejawat dan Peserta yang Terhormat</h2>
+      <div className="mx-auto container px-20 py-6 min-h-screen">
+        <h2 className="text-2xl font-medium text-primary-color">Kepada Rekan Sejawat dan Peserta yang Terhormat</h2>
         <p className="text-sm mt-3">
           Selamat datang di halaman kami yang didedikasikan untuk dunia kedokteran! Kami sangat senang menyambut Anda, para profesional medis, akademisi, peneliti, dan semua pihak yang memiliki minat besar dalam bidang kesehatan.
         </p>
