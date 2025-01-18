@@ -54,9 +54,6 @@ export default function Navbar() {
               <DropdownMenuItem>
                 <Link href={'/invited-speakers'} className="text-sm font-medium">Pembicara Yang Di Undang</Link>
               </DropdownMenuItem>
-              <DropdownMenuItem>
-                <Link href={'/social-programs'} className="text-sm font-medium">Program Sosial</Link> 
-              </DropdownMenuItem>
             </DropdownMenuContent>
           </DropdownMenu>
           <Link href={'/registration'} className="text-white text-sm font-medium py-3">Pendaftaran</Link>

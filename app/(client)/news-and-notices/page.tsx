@@ -11,8 +11,8 @@ export default function OrganizingCommitee() {
           <input type="text" className="border rounded-xl outline-none py-1 px-4 border-primary-color text-sm font-normal" placeholder="Cari Berita..." />
           <div className="absolute right-2">
             <svg className="size-4 text-primary-color" data-slot="icon" fill="none" strokeWidth="1.5" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
-            <path strokeLinecap="round" strokeLinejoin="round" d="m21 21-5.197-5.197m0 0A7.5 7.5 0 1 0 5.196 5.196a7.5 7.5 0 0 0 10.607 10.607Z"></path>
-          </svg>
+              <path strokeLinecap="round" strokeLinejoin="round" d="m21 21-5.197-5.197m0 0A7.5 7.5 0 1 0 5.196 5.196a7.5 7.5 0 0 0 10.607 10.607Z"></path>
+            </svg>
           </div>
         </div>
         <div className="mb-4 flex flex-col border-t-4 border-primary-color">
