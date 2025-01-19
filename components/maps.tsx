@@ -12,6 +12,8 @@ const customIcon = new L.Icon({
 });
 
 const Maps = () => {
+  if (typeof window === "undefined") return null;
+
   const monasPosition = [-6.175392, 106.827153]; 
 
   return (
