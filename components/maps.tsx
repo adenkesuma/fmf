@@ -13,8 +13,6 @@ const customIcon = new L.Icon({
 
 const Maps = () => {
   const monasPosition = [-6.175392, 106.827153]; 
-  const isBrowser = typeof window !== 'undefined';
-  const position = isBrowser ? L.latLng(monasPosition[0], monasPosition[1]) : L.latLng(monasPosition[0], monasPosition[1]);
 
   return (
     <div className="w-full h-[500px] rounded-xl">
@@ -23,7 +21,7 @@ const Maps = () => {
           url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
           attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
         />
-        <Marker position={position} icon={customIcon}>
+        <Marker position={L.latLng(monasPosition[0], monasPosition[1])} icon={customIcon}>
           <Popup>Monumen Nasional (Monas), Jakarta</Popup>
         </Marker>
       </MapContainer>
