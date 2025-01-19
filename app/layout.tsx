@@ -3,7 +3,7 @@ import { Nunito_Sans } from "next/font/google";
 import "./globals.css";
 import Navbar from "@/components/navbar";
 import Footer from "@/components/footer";
-import { Toaster } from "../components/ui/toaster";
+import { Toaster } from "@/components/ui/toaster";
 
 const geistSans = Nunito_Sans({
   variable: "--font-geist-sans",
