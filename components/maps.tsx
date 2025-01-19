@@ -16,7 +16,7 @@ const Maps = () => {
 
   return (
     <div className="w-full h-[500px] rounded-xl">
-      <MapContainer center={monasPosition} zoom={16} className="w-full h-full">
+      <MapContainer center={L.latLng(monasPosition[0], monasPosition[1])} zoom={16} className="w-full h-full">
         <TileLayer
           url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
           attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
