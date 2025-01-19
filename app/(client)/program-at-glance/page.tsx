@@ -10,7 +10,7 @@ export default function InvitedSpeakers() {
           Jadwal program dapat berubah. Silakan periksa kembali secara rutin untuk mengetahui pembaruan guna memastikan Anda mendapatkan informasi terkini.
         </div>
         <div className="flex flex-col border-t-4 border-primary-color">
-          <div className={`bg-blue-500/5 flex items-center border-x border-t`}>
+          <div className={`bg-blue-500/10 flex items-center border-x border-t`}>
             <div className="block text-sm w-1/3 p-2">
               <span className="font-medium">Waktu</span>
             </div>

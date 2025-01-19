@@ -10,7 +10,7 @@ export default function OrganizingCommitee() {
         <div className="flex flex-col border-t-4 border-primary-color">
           {organizingCommittee.map((commitee, i) => (
             <div key={commitee.nama} className={`flex items-center border-x border-t ${organizingCommittee.length - 1 === i ? 'border-b' : ''}`}>
-              <div className="bg-blue-600/5 block text-sm w-1/3 p-2">
+              <div className="bg-blue-500/10 block text-sm w-1/3 p-2">
                 <span className="font-medium">{commitee.jabatan}</span>
               </div>
               <div className="block text-sm w-1/3 p-2 border-x">
