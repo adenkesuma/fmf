@@ -44,7 +44,7 @@ export function RegistrationForm() {
         ...values,
         conferenceId: 1,
       })
-      .then((data: any) => {
+      .then((data) => {
         toast({
           title: "Registration successful",
         });
