@@ -12,7 +12,9 @@ export default function Navbar() {
   return (
     <div className="bg-primary-color">
       <div className="container px-20 mx-auto flex items-center justify-between py-2">
-        <Image src={Logo} alt="logo" className="w-24"/>
+        <Link href={'/'}>
+          <Image src={Logo} alt="logo" className="w-24"/>
+        </Link>
         <div className="flex justify-between items-center gap-6">
           <DropdownMenu>
             <DropdownMenuTrigger className="outline-none border-none">
