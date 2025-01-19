@@ -21,7 +21,7 @@ const Maps = () => {
           url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
           attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
         />
-        <Marker position={monasPosition} icon={customIcon}>
+        <Marker position={L.latLng(monasPosition[0], monasPosition[1])} icon={customIcon}>
           <Popup>Monumen Nasional (Monas), Jakarta</Popup>
         </Marker>
       </MapContainer>
