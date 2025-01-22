@@ -1,13 +1,16 @@
-import BannerTitle from "@/components/banner-title"
-import Image from "next/image"
+"use client";
+
+import BannerTitle from "@/components/banner-title";
+import Image from "next/image";
 import VenueImage1 from "@/public/images/venue-image-1.png";
 import VenueImage2 from "@/public/images/venue-image-2.png";
-import Maps from "@/components/maps";
+import dynamic from "next/dynamic";
+const Maps = dynamic(() => import("@/components/maps"), { ssr: false });
 
 export default function InvitedSpeakers() {
   return (
     <div className="h-full">
-      <BannerTitle message="Lokasi" /> 
+      <BannerTitle message="Lokasi" />
       <div className="mx-auto container px-20 py-10 min-h-screen">
         <div>
           <div className="bg-primary-color py-2 px-3 rounded-br-2xl w-1/2">
@@ -15,8 +18,13 @@ export default function InvitedSpeakers() {
               Monas Jakarta, Indonesia
             </h2>
           </div>
-          <p className="text-sm font-medium text-primary-color mt-4">FMF June 2025 akan di selenggarakan di jakarta</p>
-          <span className="text-sm">Pengalamanmu melakukan conference di jakarta akan sangat mengagumkan karena lokasi ditempati dengan fasilitas dan pemandangan yang bagus.</span>
+          <p className="text-sm font-medium text-primary-color mt-4">
+            FMF June 2025 akan di selenggarakan di jakarta
+          </p>
+          <span className="text-sm">
+            Pengalamanmu melakukan conference di jakarta akan sangat mengagumkan
+            karena lokasi ditempati dengan fasilitas dan pemandangan yang bagus.
+          </span>
           <div className="flex items-center gap-6 w-full mt-2">
             <div className="rounded-xl">
               <Image src={VenueImage1} alt="venue image 1" />
@@ -55,16 +63,16 @@ export default function InvitedSpeakers() {
                 <span>Daftar</span>
               </div>
               <div className="block text-sm w-4/5 p-2 border-l">
-                <button className="py-1 px-3 bg-gradient-to-r from-yellow-400 to-orange-600 text-white rounded-xl">Daftar Conference</button>
+                <button className="py-1 px-3 bg-gradient-to-r from-yellow-400 to-orange-600 text-white rounded-xl">
+                  Daftar Conference
+                </button>
               </div>
             </div>
-          </div> 
+          </div>
         </div>
         <div className="mt-10">
           <div className="mb-4 bg-primary-color py-2 px-3 rounded-br-2xl w-1/2">
-            <h2 className="font-medium text-base text-white">
-              Lokasi
-            </h2>
+            <h2 className="font-medium text-base text-white">Lokasi</h2>
           </div>
           <Maps />
         </div>
@@ -82,7 +90,8 @@ export default function InvitedSpeakers() {
               <li className="flex gap-3">
                 <span>•</span>
                 <p className="text-sm text-gray-600">
-                  Dengan berjalan kaki dari bandung ke jakarta dengan penuh semangat
+                  Dengan berjalan kaki dari bandung ke jakarta dengan penuh
+                  semangat
                 </p>
               </li>
               <li className="flex gap-3">
@@ -139,7 +148,8 @@ export default function InvitedSpeakers() {
               <li className="flex gap-3">
                 <span>•</span>
                 <p className="text-sm text-gray-600">
-                  Menaiki kereta bawah dari bandung ke jakarta dengan penuh semangat
+                  Menaiki kereta bawah dari bandung ke jakarta dengan penuh
+                  semangat
                 </p>
               </li>
               <li className="flex gap-3">
@@ -153,5 +163,5 @@ export default function InvitedSpeakers() {
         </div>
       </div>
     </div>
-  )
+  );
 }
