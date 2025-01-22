@@ -7,9 +7,9 @@ export default function WelcomeMessage() {
   return (
     <div className="h-full">
       <BannerTitle message="Pesan Selamat Datang" /> 
-      <div className="mx-auto container px-20 py-6 min-h-screen">
+      <div className="mx-auto container px-4 lg:px-20 py-6 min-h-screen">
         <div>
-          <h2 className="text-2xl font-medium text-primary-color">Kata Pengantar Ketua Perhimpunan Dokter Keluarga Indonesia</h2>
+          <h2 className="text-lg md:text-2xl font-medium text-primary-color">Kata Pengantar Ketua Perhimpunan Dokter Keluarga Indonesia</h2>
           <p className="text-sm mt-3">
             Puji syukur kita panjatkan kepada Tuhan Yang Maha Esa atas
             terselenggaranya Family Medicine Forum (FMF) 2025. Forum ini
@@ -37,18 +37,18 @@ export default function WelcomeMessage() {
           </p>
 
           <div className="mt-10 flex items-center gap-6">
-            <div className="w-40 h-40 bg-gray-200 rounded-xl flex items-center justify-center">
+            <div className="w-28 h-28 md:w-40 md:h-40 bg-gray-200 rounded-xl flex items-center justify-center">
               <Image src={LeaderPerhimpunan} alt="leader FMF" className="rounded-xl w-full h-full object-cover object-top" />
             </div>
             <div className="flex flex-col">
-              <h3 className="font-medium">Dr. dr. Isti Ilmiati Fujiati, MSc.CM-FM, M.Pd.Ked.</h3>
+              <h3 className="font-medium text-sm md:text-base">Dr. dr. Isti Ilmiati Fujiati, MSc.CM-FM, M.Pd.Ked.</h3>
               <p className="text-sm mt-2">Chair of Indonesia Association of Family Physicians</p>
               <span className="text-sm">Sp. KKLP, Subsp. COPC</span>
             </div>
           </div>
         </div>
         <div className="border-t mt-12 pt-8">
-          <h2 className="text-2xl font-medium text-primary-color">Kata Pengantar Ketua Panitia Family Medicine Forum 2025</h2>
+          <h2 className="text-lg md:text-2xl font-medium text-primary-color">Kata Pengantar Ketua Panitia Family Medicine Forum 2025</h2>
           <p className="text-sm mt-3">
             Dengan rasa syukur, kami panitia Family Medicine Forum (FMF)
             2025 mempersembahkan forum ini sebagai platform diskusi dan
@@ -74,11 +74,11 @@ export default function WelcomeMessage() {
             kedokteran keluarga dan sistem kesehatan di Indonesia.
           </p>
           <div className="mt-10 flex items-center gap-6">
-            <div className="w-40 h-40 bg-gray-200 rounded-xl flex items-center justify-center">
+            <div className="w-28 h-28 md:w-40 md:h-40 bg-gray-200 rounded-xl flex items-center justify-center">
               <Image src={LeaderPanitia} alt="leader FMF" className="rounded-xl w-full h-full object-cover object-top" />
             </div>
             <div className="flex flex-col">
-              <h3 className="font-medium">dr. Novana Perdana Putri, Sp.KKLP</h3>
+              <h3 className="font-medium text-sm md:text-base">dr. Novana Perdana Putri, Sp.KKLP</h3>
               <p className="text-sm mt-2">Chair, Organizing Committee Family Medicine Forum 2025</p>
             </div>
           </div>

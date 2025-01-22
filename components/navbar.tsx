@@ -11,11 +11,11 @@ import Logo from "@/public/images/logo.png";
 export default function Navbar() {
   return (
     <div className="bg-primary-color">
-      <div className="container px-20 mx-auto flex items-center justify-between py-2">
+      <div className="container px-4 lg:px-20 mx-auto flex items-center justify-between py-2">
         <Link href={'/'}>
           <Image src={Logo} alt="logo" className="w-24"/>
         </Link>
-        <div className="flex justify-between items-center gap-6">
+        <div className="hidden lg:flex justify-between items-center gap-6">
           <DropdownMenu>
             <DropdownMenuTrigger className="outline-none border-none">
               <span className="text-white text-sm font-medium py-3 flex items-center gap-1">

@@ -2,7 +2,6 @@ import CarouselSpeakers from "@/components/carousel-speakers";
 import Banner from "@/components/banner";
 import Image from "next/image";
 import PlayImage from "@/public/images/play-video-image.png";
-import medicalNews from "@/const/news";
 
 export default function Home() {
   return (
@@ -15,22 +14,22 @@ export default function Home() {
             <CarouselSpeakers />
           </div>
           <div>
-            <div className="bg-gradient-to-r from-yellow-400 to-orange-500 rounded-t-xl py-3 px-4">
-              <span className="text-lg font-medium text-primary-color">Ikuti Terus Berita Terbaru Kami</span>
-            </div>
-            <div className="border-x border-b border-primary-color px-4 py-4 rounded-b-xl">
-              <h2 className="font-medium text-2xl mb-4 text-primary-color">Berita & Pemberitahuan</h2>
-              <div className="flex flex-col gap-4">
-                {medicalNews.map((news) => (
-                  <div key={news.date} className="relative border-b flex items-center gap-8 justify-between">
-                    <h4 className="text-basae w-5/6 truncate text-ellipsis">{news.title}</h4>
-                    <div className="w-1/6 text-gray-500 text-xs">{news.date.toString()}</div>
-
-                    {news.tags.includes('Cancer') && (
-                      <div className="absolute -top-4 right-2 w-fit px-2 rounded-xl text-xs bg-gradient-to-r from-yellow-400 to-orange-500 text-white">New</div>
-                    )}
-                  </div>
-                ))}
+            <h2 className="font-medium text-2xl mb-2 text-primary-color">Kata Pengantar</h2>
+            <div className="p-4 bg-yellow-400 rounded-xl">
+              <div className="bg-white/60 rounded-xl p-4">
+                <p className="text-sm text-black">
+                  Puji syukur kita panjatkan kepada Tuhan Yang Maha Esa atas
+                  terselenggaranya Family Medicine Forum (FMF) 2025. Forum ini
+                  hadir sebagai wujud komitmen bersama untuk menguatkan peran
+                  kedokteran keluarga dalam mendukung transformasi layanan kesehatan di Indonesia
+                </p>
+                <p className="text-sm mt-3 text-black">
+                  Melalui FMF 2025, kami berharap dapat mendorong terciptanya rekomendasi strategis, termasuk
+                  penguatan kesinambungan pelayanan melalui integrated care pathways, penyusunan model
+                  pembiayaan Sp.KKLP yang berkelanjutan, dan pengembangan mekanisme pelayanan yang lebih
+                  efektif. Semua ini bertujuan untuk memberikan kontribusi nyata dalam mendukung tercapainya
+                  sistem kesehatan nasional yang lebih baik.
+                </p>
               </div>
             </div>
           </div>
