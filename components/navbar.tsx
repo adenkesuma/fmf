@@ -35,9 +35,6 @@ export default function Navbar() {
               <DropdownMenuItem>
                 <Link href={'/organizing-commitee'} className="text-sm font-medium">Panitia Penyelenggara</Link> 
               </DropdownMenuItem>
-              <DropdownMenuItem>
-                <Link href={'/news-and-notices'} className="text-sm font-medium">Berita & Pemberitahuan</Link>
-              </DropdownMenuItem>
             </DropdownMenuContent>
           </DropdownMenu>
           <DropdownMenu>
