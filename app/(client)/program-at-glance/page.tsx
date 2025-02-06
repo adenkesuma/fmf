@@ -1,5 +1,6 @@
 import BannerTitle from "@/components/banner-title"
-import programAtAGlance from "@/const/program-glance"
+import Image from "next/image"
+import ProgramAtAGlance from "@/public/images/glance.png"
 
 export default function InvitedSpeakers() {
   return (
@@ -9,38 +10,7 @@ export default function InvitedSpeakers() {
         <div className="font-medium text-sm mb-4">
           Jadwal program dapat berubah. Silakan periksa kembali secara rutin untuk mengetahui pembaruan guna memastikan Anda mendapatkan informasi terkini.
         </div>
-        <div className="flex flex-col border-t-4 border-primary-color">
-          <div className={`bg-blue-500/10 flex items-center border-x border-t`}>
-            <div className="block text-sm w-1/3 p-2">
-              <span className="font-medium">Waktu</span>
-            </div>
-            <div className="block text-sm w-1/3 p-2 border-x">
-              <span className="font-medium">26 Juni 2025</span>
-            </div>
-            <div className="block text-sm w-1/3 p-2 border-r">
-              <span className="font-medium">27 Juni 2025</span>
-            </div>
-            <div className="block text-sm w-1/3 p-2">
-              <span className="font-medium">28 Juni 2025</span>
-            </div>
-          </div>
-          {programAtAGlance.map((glance, i) => (
-            <div key={i + '-' + glance.June26} className={`flex items-center border-x border-t ${programAtAGlance.length - 1 === i ? 'border-b' : ''}`}>
-              <div className="block text-sm w-1/3 p-2">
-                <span className="font-medium">{glance.Time}</span>
-              </div>
-              <div className="block text-sm w-1/3 p-2 border-x">
-                <span>{glance.June26}</span>
-              </div>
-              <div className="block text-sm w-1/3 p-2 border-r">
-                <span>{glance.June27}</span>
-              </div>
-              <div className="block text-sm w-1/3 p-2">
-                <span>{glance.June28}</span>
-              </div>
-            </div>
-          ))}
-        </div> 
+        <Image src={ProgramAtAGlance} alt="program at a glance" className="w-full" />
       </div>
     </div>
   )
