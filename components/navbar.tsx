@@ -15,76 +15,7 @@ export default function Navbar() {
         <Link href={'/'}>
           <Image src={Logo} alt="logo" className="w-24"/>
         </Link>
-        <div className="hidden lg:flex justify-between items-center gap-6">
-          <DropdownMenu>
-            <DropdownMenuTrigger className="outline-none border-none">
-              <span className="text-white text-sm font-medium py-3 flex items-center gap-1">
-                <span>FMF 2025</span>
-                <svg className="size-4" data-slot="icon" fill="none" strokeWidth="1.5" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
-                  <path strokeLinecap="round" strokeLinejoin="round" d="m19.5 8.25-7.5 7.5-7.5-7.5"></path>
-                </svg>
-              </span>
-            </DropdownMenuTrigger>
-            <DropdownMenuContent className="bg-primary-color border-white/20 text-white">
-              <DropdownMenuItem>
-                <Link href={'/welcome-message'} className="text-sm font-medium">Pesan Selamat Datang</Link>
-              </DropdownMenuItem>
-              <DropdownMenuItem>
-                <Link href={'/overview'} className="text-sm font-medium">Ringkasan</Link>
-              </DropdownMenuItem>
-              <DropdownMenuItem>
-                <Link href={'/organizing-commitee'} className="text-sm font-medium">Panitia Penyelenggara</Link> 
-              </DropdownMenuItem>
-            </DropdownMenuContent>
-          </DropdownMenu>
-          <DropdownMenu>
-            <DropdownMenuTrigger className="outline-none border-none">
-              <span className="text-white text-sm font-medium py-3 flex items-center gap-1">
-                <span>Program</span>
-                <svg className="size-4" data-slot="icon" fill="none" strokeWidth="1.5" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
-                  <path strokeLinecap="round" strokeLinejoin="round" d="m19.5 8.25-7.5 7.5-7.5-7.5"></path>
-                </svg>
-              </span>
-            </DropdownMenuTrigger>
-            <DropdownMenuContent className="bg-primary-color border-white/20 text-white">
-              <DropdownMenuItem>
-                <Link href={'/program-at-glance'} className="text-sm font-medium">Sekilas Tentang Program</Link>
-              </DropdownMenuItem>
-              <DropdownMenuItem>
-                <Link href={'/invited-speakers'} className="text-sm font-medium">Pembicara Yang Di Undang</Link>
-              </DropdownMenuItem>
-            </DropdownMenuContent>
-          </DropdownMenu>
-          <Link href={'/registration'} className="text-white text-sm font-medium py-3">Pendaftaran</Link>
-          <Link href={'/sponsorship'} className="text-white text-sm font-medium py-3">Sponsor</Link>
-          <Link href={'/accomodations'} className="text-white text-sm font-medium">Akomodasi</Link>
-          <DropdownMenu>
-            <DropdownMenuTrigger className="outline-none border-none">
-              <span className="text-white text-sm font-medium py-3 flex items-center gap-1">
-                <span>Informasi</span>
-                <svg className="size-4" data-slot="icon" fill="none" strokeWidth="1.5" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
-                  <path strokeLinecap="round" strokeLinejoin="round" d="m19.5 8.25-7.5 7.5-7.5-7.5"></path>
-                </svg>
-              </span>
-            </DropdownMenuTrigger>
-            <DropdownMenuContent className="bg-primary-color border-white/20 text-white">
-              <DropdownMenuItem>
-                <Link href={'/venue'} className="text-sm font-medium">Lokasi</Link>
-              </DropdownMenuItem>
-              <DropdownMenuItem>
-                <Link href={'/jakarta-indonesia'} className="text-sm font-medium">Jakarta, Indonesia</Link>
-              </DropdownMenuItem>
-              <DropdownMenuItem>
-                <Link href={'/transportation'} className="text-sm font-medium">Transportasi</Link>
-              </DropdownMenuItem>
-              <DropdownMenuItem>
-                <Link href={'/general-information'} className="text-sm font-medium">Informasi Umum</Link>
-              </DropdownMenuItem>
-            </DropdownMenuContent>
-          </DropdownMenu>
-        </div>
         <Link className="text-sm font-medium text-white hidden lg:block" href={'/'}>Home</Link>
-
         {/* hamburger menu */}
         <div className="block lg:hidden">
           <DropdownMenu>
@@ -112,7 +43,76 @@ export default function Navbar() {
             </DropdownMenuContent>
           </DropdownMenu>
         </div>
-
+      </div>
+      <div className="bg-yellow-400">
+        <div className="container px-4 lg:px-20 mx-auto hidden lg:flex justify-center items-center gap-20">
+          <DropdownMenu>
+            <DropdownMenuTrigger className="outline-none border-none">
+              <span className="text-black text-sm font-medium py-2 flex items-center gap-1">
+                <span>FMF 2025</span>
+                <svg className="size-4" data-slot="icon" fill="none" strokeWidth="1.5" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                  <path strokeLinecap="round" strokeLinejoin="round" d="m19.5 8.25-7.5 7.5-7.5-7.5"></path>
+                </svg>
+              </span>
+            </DropdownMenuTrigger>
+            <DropdownMenuContent className="bg-primary-color border-white/20 ">
+              <DropdownMenuItem>
+                <Link href={'/welcome-message'} className="text-sm font-medium">Pesan Selamat Datang</Link>
+              </DropdownMenuItem>
+              <DropdownMenuItem>
+                <Link href={'/overview'} className="text-sm font-medium">Ringkasan</Link>
+              </DropdownMenuItem>
+              <DropdownMenuItem>
+                <Link href={'/organizing-commitee'} className="text-sm font-medium">Panitia Penyelenggara</Link> 
+              </DropdownMenuItem>
+            </DropdownMenuContent>
+          </DropdownMenu>
+          <DropdownMenu>
+            <DropdownMenuTrigger className="outline-none border-none">
+              <span className="text-black text-sm font-medium py-2 flex items-center gap-1">
+                <span>Program</span>
+                <svg className="size-4" data-slot="icon" fill="none" strokeWidth="1.5" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                  <path strokeLinecap="round" strokeLinejoin="round" d="m19.5 8.25-7.5 7.5-7.5-7.5"></path>
+                </svg>
+              </span>
+            </DropdownMenuTrigger>
+            <DropdownMenuContent className="bg-primary-color border-white/20">
+              <DropdownMenuItem>
+                <Link href={'/program-at-glance'} className="text-sm font-medium">Sekilas Tentang Program</Link>
+              </DropdownMenuItem>
+              <DropdownMenuItem>
+                <Link href={'/invited-speakers'} className="text-sm font-medium">Pembicara Yang Di Undang</Link>
+              </DropdownMenuItem>
+            </DropdownMenuContent>
+          </DropdownMenu>
+          <Link href={'/registration'} className="text-black text-sm font-medium py-2">Pendaftaran</Link>
+          <Link href={'/sponsorship'} className="text-black text-sm font-medium py-2">Sponsor</Link>
+          <Link href={'/accomodations'} className="text-black text-sm font-medium">Akomodasi</Link>
+          <DropdownMenu>
+            <DropdownMenuTrigger className="outline-none border-none">
+              <span className="text-black text-sm font-medium py-2 flex items-center gap-1">
+                <span>Informasi</span>
+                <svg className="size-4" data-slot="icon" fill="none" strokeWidth="1.5" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                  <path strokeLinecap="round" strokeLinejoin="round" d="m19.5 8.25-7.5 7.5-7.5-7.5"></path>
+                </svg>
+              </span>
+            </DropdownMenuTrigger>
+            <DropdownMenuContent className="bg-primary-color border-white/20 text-white">
+              <DropdownMenuItem>
+                <Link href={'/venue'} className="text-sm font-medium">Lokasi</Link>
+              </DropdownMenuItem>
+              <DropdownMenuItem>
+                <Link href={'/jakarta-indonesia'} className="text-sm font-medium">Jakarta, Indonesia</Link>
+              </DropdownMenuItem>
+              <DropdownMenuItem>
+                <Link href={'/transportation'} className="text-sm font-medium">Transportasi</Link>
+              </DropdownMenuItem>
+              <DropdownMenuItem>
+                <Link href={'/general-information'} className="text-sm font-medium">Informasi Umum</Link>
+              </DropdownMenuItem>
+            </DropdownMenuContent>
+          </DropdownMenu>
+        </div>
       </div>
     </div>
   )
