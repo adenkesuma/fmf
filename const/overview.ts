@@ -1,39 +1,39 @@
 const overviewData = [
   {
-    nama: "judul",
-    title: "Konferensi Internasional Kedokteran 2025"
+    nama: "Organizer",
+    title: "Perhimpunan Dokter Keluarga Indonesia"
   },
   {
-    nama: "tanggal",
-    title: "18 Januari 2025"
+    nama: "Title",
+    title: "Kongres Nasional Perhimpunan Dokter Keluarga Indonesia (KONAS PDKI) & Family Medicine Forum 2025"
   },
   {
-    nama: "lokasi",
-    title: "Jakarta Convention Center, Indonesia"
+    nama: "Activity Name",
+    title: "Towards a Healthier Indonesia: Family Medicine’s Contribution to Healthcare Transformation"
   },
   {
-    nama: "tuan rumah",
-    title: "Asosiasi Dokter Indonesia"
+    nama: "Date",
+    title: "26 - 28 June 2025"
   },
   {
-    nama: "penyelenggara",
-    title: "PT Medika Nusantara"
+    nama: "Venue",
+    title: "JW Marriott Hotel, Jakarta"
   },
   {
-    nama: "tema",
-    title: "Inovasi dan Kolaborasi dalam Dunia Kedokteran"
+    nama: "Accreditation",
+    title: "SKP Kemenkes"
   },
   {
     nama: "peserta",
     title: "500+ dokter, peneliti, dan praktisi kesehatan"
   },
   {
-    nama: "bahasa resmi",
-    title: "Bahasa Indonesia dan Inggris"
+    nama: "Sekretariat",
+    title: "PDKI Jakarta Jl. Samratulangi no 29, Menteng- Jakarta Pusat"
   },
   {
-    nama: "situs web",
-    title: "https://konferensikedokteran2025.com"
+    nama: "Congress Organizer",
+    title: "Indonesia Congress Management Jl. Westhoff 35 Bandung West Java - Indonesia 40171 Tanggal Kegiatan WA: +62 811-2024-528 (Maula) Telp: (022) 426 4028 Website: www.clickicm.co.id"
   }
 ];
 
