@@ -78,10 +78,10 @@ export default function Navbar() {
             </DropdownMenuTrigger>
             <DropdownMenuContent className="bg-primary-color border-white/20 text-white">
               <DropdownMenuItem>
-                <Link href={'/program-at-glance'} className="text-sm font-medium">Sekilas Tentang Program</Link>
+                <Link href={'/program-at-glance'} className="text-sm font-medium">Program at a Glance</Link>
               </DropdownMenuItem>
               <DropdownMenuItem>
-                <Link href={'/invited-speakers'} className="text-sm font-medium">Pembicara Yang Di Undang</Link>
+                <Link href={'/invited-speakers'} className="text-sm font-medium">Invited Speakers</Link>
               </DropdownMenuItem>
             </DropdownMenuContent>
           </DropdownMenu>
