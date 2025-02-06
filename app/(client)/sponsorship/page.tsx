@@ -5,16 +5,16 @@ import BannerSponsor from "@/public/images/sponsor-banner.png";
 export default function Sponsorship() {
   return (
     <div className="h-full">
-      <BannerTitle message="Sponsor" /> 
+      <BannerTitle message="Sponsorship" /> 
       <div className="mx-auto container px-20 py-10 min-h-screen">
-        <h2 className="font-medium text-2xl mb-2 text-primary-color">Tentang FMF</h2>
+        <h2 className="font-medium text-2xl mb-2 text-primary-color">About FMF</h2>
         <div className="bg-blue-500/10 mb-8 p-4 rounded-xl">
           <p className="text-sm">
-            FMF adalah sebuah organisasi yang bergerak di bidang pendidikan dan kedokteran.
+            FMF is an organization operating in the fields of education and medicine. 
           </p>
         </div>
 
-        <h2 className="font-medium text-2xl mb-2 text-primary-color">Kenapa Harus Mensponsori FMF June 2025</h2>
+        <h2 className="font-medium text-2xl mb-2 text-primary-color">Why You Should Sponsor FMF June 2025</h2>
         <ul className="flex flex-col gap-2">
           <li className="flex gap-3">
             <span>•</span>
@@ -43,7 +43,7 @@ export default function Sponsorship() {
         </ul>
 
         <h2 className="font-medium mt-8 text-2xl mb-2 text-primary-color">
-          Telusuri Peluang Sponsorship
+          Explore Sponsorship Opportunities
         </h2>
         <div className="flex gap-6 items-center">
           <div className="w-60 h-40 rounded-xl">

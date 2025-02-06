@@ -10,7 +10,7 @@ export default function InvitedSpeakers() {
 
   return (
     <div className="h-full">
-      <BannerTitle message="Pembicara Yang Di Undang" /> 
+      <BannerTitle message="Invited Speakers" /> 
       <div className="mx-auto container px-20 py-10 min-h-screen">
         <div className="grid grid-cols-2 gap-6">
           {speakers.map((speaker, i) => (

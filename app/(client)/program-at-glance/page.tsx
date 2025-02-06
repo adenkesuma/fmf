@@ -8,7 +8,7 @@ export default function InvitedSpeakers() {
       <BannerTitle message="Program at a Glance" /> 
       <div className="mx-auto container px-20 py-10 min-h-screen">
         <div className="font-medium text-sm mb-4">
-          Jadwal program dapat berubah. Silakan periksa kembali secara rutin untuk mengetahui pembaruan guna memastikan Anda mendapatkan informasi terkini.
+          Program schedules are subject to change. Please check back regularly for freshness to keep you up to date with the latest information.
         </div>
         <Image src={ProgramAtAGlance} alt="program at a glance" className="w-full" />
       </div>
