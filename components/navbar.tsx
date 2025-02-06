@@ -55,15 +55,15 @@ export default function Navbar() {
                 </svg>
               </span>
             </DropdownMenuTrigger>
-            <DropdownMenuContent className="bg-primary-color border-white/20 ">
+            <DropdownMenuContent className="bg-primary-color border-white/20 text-white">
               <DropdownMenuItem>
-                <Link href={'/welcome-message'} className="text-sm font-medium">Pesan Selamat Datang</Link>
+                <Link href={'/welcome-message'} className="text-sm font-medium">Welcome Message</Link>
               </DropdownMenuItem>
               <DropdownMenuItem>
-                <Link href={'/overview'} className="text-sm font-medium">Ringkasan</Link>
+                <Link href={'/overview'} className="text-sm font-medium">Overview</Link>
               </DropdownMenuItem>
               <DropdownMenuItem>
-                <Link href={'/organizing-commitee'} className="text-sm font-medium">Panitia Penyelenggara</Link> 
+                <Link href={'/organizing-commitee'} className="text-sm font-medium">Organizing Committee</Link> 
               </DropdownMenuItem>
             </DropdownMenuContent>
           </DropdownMenu>
@@ -76,7 +76,7 @@ export default function Navbar() {
                 </svg>
               </span>
             </DropdownMenuTrigger>
-            <DropdownMenuContent className="bg-primary-color border-white/20">
+            <DropdownMenuContent className="bg-primary-color border-white/20 text-white">
               <DropdownMenuItem>
                 <Link href={'/program-at-glance'} className="text-sm font-medium">Sekilas Tentang Program</Link>
               </DropdownMenuItem>

@@ -6,34 +6,33 @@ import Image from "next/image";
 export default function WelcomeMessage() {
   return (
     <div className="h-full">
-      <BannerTitle message="Pesan Selamat Datang" /> 
+      <BannerTitle message="Welcome Message" /> 
       <div className="mx-auto container px-4 lg:px-20 py-6 min-h-screen">
         <div>
-          <h2 className="text-lg md:text-2xl font-medium text-primary-color">Kata Pengantar Ketua Perhimpunan Dokter Keluarga Indonesia</h2>
+          <h2 className="text-lg md:text-2xl font-medium text-primary-color">
+            Foreword by the Chairman of the Indonesian Family Doctors Association
+          </h2>
           <p className="text-sm mt-3">
-            Puji syukur kita panjatkan kepada Tuhan Yang Maha Esa atas
-            terselenggaranya Family Medicine Forum (FMF) 2025. Forum ini
-            hadir sebagai wujud komitmen bersama untuk menguatkan peran
-            kedokteran keluarga dalam mendukung transformasi layanan kesehatan di Indonesia.
+            We give thanks to God Almighty for holding the Family Medicine Forum (FMF) 2025. This forum exists as a form of joint commitment to strengthen the role of family medicine in supporting the transformation of health services in Indonesia. 
           </p>
           <p className="text-sm mt-3">
-            Kedokteran keluarga memiliki posisi strategis dalam menciptakan pelayanan kesehatan primer
-            yang terintegrasi, berkelanjutan, dan berorientasi pada pasien, keluarga, serta komunitas. Dalam
-            konteks upaya meningkatkan aksesibilitas dan kualitas layanan kesehatan, kolaborasi seluruh
-            pemangku kepentingan menjadi elemen penting untuk menghasilkan inovasi dan solusi yang
-            relevan dengan kebutuhan masyarakat.
+            Family medicine has a strategic position in creating primary health services
+            which is integrated, sustainable and oriented towards patients, families and communities. In
+            context of efforts to improve accessibility and quality of health services, collaboration throughout
+            Stakeholders are an important element in producing innovation and solutions
+            relevant to community needs.  
           </p>
           <p className="text-sm mt-3">
-            Melalui FMF 2025, kami berharap dapat mendorong terciptanya rekomendasi strategis, termasuk
-            penguatan kesinambungan pelayanan melalui integrated care pathways, penyusunan model
-            pembiayaan Sp.KKLP yang berkelanjutan, dan pengembangan mekanisme pelayanan yang lebih
-            efektif. Semua ini bertujuan untuk memberikan kontribusi nyata dalam mendukung tercapainya
-            sistem kesehatan nasional yang lebih baik
+            Through FMF 2025, we hope to encourage the creation of strategic recommendations, including
+            strengthening service continuity through integrated care pathways, developing models
+            sustainable Sp.KKLP financing, and development of more service mechanisms
+            effective. All of this aims to make a real contribution in supporting its achievement
+            a better national health system 
           </p>
           <p className="text-sm mt-3">
-            Terima kasih kepada seluruh pihak yang telah berkontribusi dalam terselenggaranya FMF 2025.
-            Semoga forum ini menjadi inspirasi dan langkah awal menuju perubahan positif bagi kedokteran
-            keluarga dan pelayanan kesehatan di Indonesia.
+            Thank you to all parties who have contributed to holding FMF 2025.
+            Hopefully this forum will be an inspiration and the first step towards positive change for medicine
+            family and health services in Indonesia. 
           </p>
 
           <div className="mt-10 flex items-center gap-6">
@@ -48,12 +47,14 @@ export default function WelcomeMessage() {
           </div>
         </div>
         <div className="border-t mt-12 pt-8">
-          <h2 className="text-lg md:text-2xl font-medium text-primary-color">Kata Pengantar Ketua Panitia Family Medicine Forum 2025</h2>
+          <h2 className="text-lg md:text-2xl font-medium text-primary-color">
+            Foreword by Chair of the 2025 Family Medicine Forum Committee
+          </h2>
           <p className="text-sm mt-3">
-            Dengan rasa syukur, kami panitia Family Medicine Forum (FMF)
-            2025 mempersembahkan forum ini sebagai platform diskusi dan
-            kolaborasi untuk memperkuat peran kedokteran keluarga dalam
-            transformasi layanan kesehatan di Indonesia.
+            With gratitude, we, the committee of the Family Medicine Forum (FMF)
+            2025 presents this forum as a discussion platform and
+            collaboration to strengthen the role of family medicine in
+            transformation of health services in Indonesia. 
           </p>
           <p className="text-sm mt-3">
             FMF 2025 dirancang untuk menjawab berbagai tantangan dalam sistem kesehatan kita,
@@ -63,15 +64,16 @@ export default function WelcomeMessage() {
             meningkatkan kualitas layanan primer.  
           </p>
           <p className="text-sm mt-3">
-            Harapan kami, hasil dari forum ini dapat menjadi panduan implementasi yang nyata dan
-            berdampak langsung pada pelayanan kesehatan masyarakat. Dukungan dari seluruh peserta,
-            narasumber, dan pemangku kepentingan sangat kami hargai dalam mewujudkan tujuan besar
-            ini.
+            FMF 2025 is designed to address various challenges in our health system,
+            especially in primary care. The main focus of this forum is to strengthen sustainability
+            services through an integrated approach, designing a supportive financing system
+            sustainability of specialist family doctor services (Sp.KKLP), and presenting innovations for
+            improve the quality of primary services. 
           </p>
           <p className="text-sm mt-3">
-            Kami mengucapkan terima kasih kepada semua pihak yang telah bekerja keras untuk
-            menyukseskan FMF 2025. Semoga forum ini membawa manfaat besar bagi pengembangan
-            kedokteran keluarga dan sistem kesehatan di Indonesia.
+            We would like to thank all those who have worked hard to
+            make FMF 2025 a success. Hopefully this forum will bring great benefits for development
+            family medicine and the health system in Indonesia. 
           </p>
           <div className="mt-10 flex items-center gap-6">
             <div className="w-28 h-28 md:w-40 md:h-40 bg-gray-200 rounded-xl flex items-center justify-center">

@@ -46,28 +46,28 @@ const CountdownCard: React.FC<CountdownCardProps> = ({ eventDate }) => {
   }, [eventDate]);
 
   return (
-    <div className="flex flex-col items-center justify-center w-fit p-6 bg-yellow-400 rounded-lg h-32">
-      <h2 className="text-base font-medium mb-2">Hitung Mundur Acara</h2>
+    <div className="flex flex-col items-center justify-center w-fit p-6 bg-primary-color rounded-lg h-32">
+      <h2 className="text-base font-medium mb-2 text-white">Countdown</h2>
       <div className="w-full flex items-center justify-center gap-4">
         <div className="text-center w-14 rounded-lg p-1 bg-white">
           <span className="block -mb-2 text-lg font-semibold text-primary-color">{timeLeft.days}</span>
-          <span className="text-xs font-normal text-black">Hari</span>
+          <span className="text-xs font-normal text-black">Day</span>
         </div>
         <div className="text-center w-14 rounded-lg p-1 bg-white">
           <span className="block -mb-2 text-lg font-semibold text-primary-color">{timeLeft.hours}</span>
-          <span className="text-xs font-normal text-black">Jam</span>
+          <span className="text-xs font-normal text-black">Hour</span>
         </div>
         <div className="text-center w-14 rounded-lg p-1 bg-white">
           <span className="block -mb-2 text-lg font-semibold text-primary-color">{timeLeft.minutes}</span>
-          <span className="text-xs font-normal text-black">Menit</span>
+          <span className="text-xs font-normal text-black">Minutes</span>
         </div>
         <div className="text-center w-14 rounded-lg p-1 bg-white">
           <span className="block -mb-2 text-lg font-semibold text-primary-color">{timeLeft.seconds}</span>
-          <span className="text-xs font-normal text-black">Detik</span>
+          <span className="text-xs font-normal text-black">Second</span>
         </div>
       </div>
-      <p className="text-xs mt-2">
-        Acara dimulai pada: {new Date(eventDate).toLocaleString()}
+      <p className="text-xs mt-2 text-white">
+        Event starts on: {new Date(eventDate).toLocaleString()}
       </p>
     </div>
   );
