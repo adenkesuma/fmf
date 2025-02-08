@@ -46,8 +46,8 @@ const CountdownCard: React.FC<CountdownCardProps> = ({ eventDate }) => {
   }, [eventDate]);
 
   return (
-    <div className="flex flex-col items-center justify-center w-fit p-6 bg-yellow-400 rounded-lg h-32">
-      <h2 className="text-base font-medium mb-2 text-primary-colow">Countdown</h2>
+    <div className="flex flex-col items-center justify-center w-fit bg-yellow-400 rounded-lg h-full p-5">
+      <h2 className="text-2xl font-medium mb-2 text-primary-color">Countdown</h2>
       <div className="w-full flex items-center justify-center gap-4">
         <div className="text-center w-14 rounded-lg p-1 bg-white">
           <span className="block -mb-2 text-lg font-semibold text-primary-color">{timeLeft.days}</span>
@@ -66,7 +66,7 @@ const CountdownCard: React.FC<CountdownCardProps> = ({ eventDate }) => {
           <span className="text-xs font-normal text-black">Second</span>
         </div>
       </div>
-      <p className="text-xs mt-2 text-primary-color">
+      <p className="text-base mt-2 text-primary-color">
         Event starts on: {new Date(eventDate).toLocaleString()}
       </p>
     </div>
