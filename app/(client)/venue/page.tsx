@@ -71,13 +71,13 @@ export default function InvitedSpeakers() {
           </div>
         </div>
         <div className="mt-10">
-          <div className="mb-4 bg-primary-color py-2 px-3 rounded-br-2xl w-1/2">
+          <div className="mb-4 bg-primary-color py-2 px-3 rounded-br-2xl w-full md:w-1/2">
             <h2 className="font-medium text-base text-white">Lokasi</h2>
           </div>
           <Maps />
         </div>
         <div className="mt-10">
-          <div className="mb-4 bg-primary-color py-2 px-3 rounded-br-2xl w-1/2">
+          <div className="mb-4 bg-primary-color py-2 px-3 rounded-br-2xl w-full md:w-1/2">
             <h2 className="font-medium text-base text-white">
               Bagaimana Cara Sampai Kesana
             </h2>
