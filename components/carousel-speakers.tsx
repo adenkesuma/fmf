@@ -25,9 +25,9 @@ export default function CarouselSpeakers() {
 
   return (
     <div className="relative w-full overflow-hidden border border-primary-color rounded-xl">
-      <Card key={speakers[currentIndex].name} className="flex items-center rounded-xl w-full h-full">
-        <CardHeader>
-          <div className="h-40 w-40 bg-gray-300 rounded-xl flex items-center justify-center">
+      <Card key={speakers[currentIndex].name} className="flex flex-col md:flex-row items-center rounded-xl w-full h-full">
+        <CardHeader className="w-full">
+          <div className="w-full h-40 md:h-40 md:w-40 bg-gray-300 rounded-xl flex items-center justify-center">
             {currentIndex}
           </div>
         </CardHeader>
@@ -43,7 +43,7 @@ export default function CarouselSpeakers() {
           </div>
         </CardContent>
       </Card>
-      <div className="absolute bottom-4 right-4 flex space-x-2">
+      <div className="absolute bottom-2 right-2 md:bottom-4 md:right-4 flex space-x-2">
         {speakers.map((_, index) => (
           <span
             key={index}
