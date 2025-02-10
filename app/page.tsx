@@ -3,6 +3,7 @@ import Banner from "@/components/banner";
 import Image from "next/image";
 import LeaderPerhimpunan from "@/public/images/isti.png";
 import LeaderPanitia from "@/public/images/novana.jpeg";
+import Link from "next/link";
 
 export default function Home() {
   return (
@@ -65,6 +66,7 @@ export default function Home() {
               Hopefully this forum will be an inspiration and the first step towards positive change for medicine
               family and health services in Indonesia. 
             </p>
+            <Link href={'/welcome-message'} className="underline text-sm text-primary-color font-bold block mt-3">See Detail</Link>
           </div>
           <div className="border-t mt-4 border border-primary-color rounded-xl p-7">
             <div className="flex items-center mb-4">
@@ -87,6 +89,7 @@ export default function Home() {
               make FMF 2025 a success. Hopefully this forum will bring great benefits for development
               family medicine and the health system in Indonesia. 
             </p>
+            <Link href={'/welcome-message'} className="underline text-sm text-primary-color font-bold block mt-3">See Detail</Link>
           </div>
         </div> 
       </div>
