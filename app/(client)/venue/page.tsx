@@ -11,9 +11,9 @@ export default function InvitedSpeakers() {
   return (
     <div className="h-full">
       <BannerTitle message="Lokasi" />
-      <div className="mx-auto container px-20 py-10 min-h-screen">
+      <div className="mx-auto container px-6 lg:px-20 py-10 min-h-screen">
         <div>
-          <div className="bg-primary-color py-2 px-3 rounded-br-2xl w-1/2">
+          <div className="bg-primary-color py-2 px-3 rounded-br-2xl w-full md:w-1/2">
             <h2 className="font-medium text-base text-white">
               JW Marriot Hotel, Jakarta
             </h2>
@@ -25,7 +25,7 @@ export default function InvitedSpeakers() {
             Pengalamanmu melakukan conference di jakarta akan sangat mengagumkan
             karena lokasi ditempati dengan fasilitas dan pemandangan yang bagus.
           </span>
-          <div className="flex items-center gap-6 w-full mt-2">
+          <div className="flex flex-col md:flex-row items-center gap-6 w-full mt-2">
             <div className="rounded-xl w-full h-full">
               <Image className="w-full h-80 object-cover bg-cover" src={VenueImage1} alt="venue image 1" />
             </div>
