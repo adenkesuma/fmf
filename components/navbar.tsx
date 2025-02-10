@@ -11,9 +11,9 @@ import Logo from "@/public/images/logo.png";
 export default function Navbar() {
   return (
     <div className="bg-primary-color">
-      <div className="container px-4 lg:px-20 mx-auto flex items-center justify-between py-2">
+      <div className="container px-4 lg:px-20 mx-auto flex items-center justify-between py-3">
         <Link href={'/'}>
-          <Image src={Logo} alt="logo" className="w-24"/>
+          <Image src={Logo} alt="logo" className="w-28"/>
         </Link>
         <Link className="text-sm font-medium text-white hidden lg:block" href={'/'}>Home</Link>
         {/* hamburger menu */}

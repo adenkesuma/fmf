@@ -4,11 +4,13 @@ import Image from "next/image";
 import Link from "next/link";
 import CountdownCard from "./count-down-card";
 import BannerImage from '@/public/images/banner.png';
+import BannerImageMobile from "@/public/images/banner-mobile.png";
 
 const Banner = () => {
    return (
     <div className="h-screen relative">
-      <Image src={BannerImage} alt="banner image" className="w-full h-[90%] bg-cover object-cover" />
+      <Image src={BannerImage} alt="banner image" className="w-full h-[90%] bg-cover object-cover hidden md:block" />
+      <Image src={BannerImageMobile} alt="baner image mobile" className="w-full h-[90%] bg-cover object-cover block md:hidden" />
       <div className="mb-3 container px-10 absolute left-1/2 -translate-x-1/2 -bottom-16 p-6 flex items-center gap-2 justify-center">
         <div className="bg-white p-2 md:p-4 flex flex-col md:flex-row items-center gap-2 rounded-2xl">
           <CountdownCard eventDate="2025-07-01T00:00:00Z"/>
