@@ -1,7 +1,8 @@
 import CarouselSpeakers from "@/components/carousel-speakers";
 import Banner from "@/components/banner";
 import Image from "next/image";
-import PlayImage from "@/public/images/play-video-image.png";
+import LeaderPerhimpunan from "@/public/images/isti.png";
+import LeaderPanitia from "@/public/images/novana.jpeg";
 
 export default function Home() {
   return (
@@ -37,26 +38,57 @@ export default function Home() {
             </div>
           </div>
         </div>
-        <div className="flex flex-col gap-8 mt-8">
-          <div>
-            <h2 className="font-medium text-2xl mb-2 text-primary-color">Welcome Message</h2>
-            <div className="bg-blue-50 rounded-xl p-4">
-              <p className="text-sm text-black">
-                Puji syukur kita panjatkan kepada Tuhan Yang Maha Esa atas
-                terselenggaranya Family Medicine Forum (FMF) 2025. Forum ini
-                hadir sebagai wujud komitmen bersama untuk menguatkan peran
-                kedokteran keluarga dalam mendukung transformasi layanan kesehatan di Indonesia
-              </p>
-              <p className="text-sm mt-3 text-black">
-                Melalui FMF 2025, kami berharap dapat mendorong terciptanya rekomendasi strategis, termasuk
-                penguatan kesinambungan pelayanan melalui integrated care pathways, penyusunan model
-                pembiayaan Sp.KKLP yang berkelanjutan, dan pengembangan mekanisme pelayanan yang lebih
-                efektif. Semua ini bertujuan untuk memberikan kontribusi nyata dalam mendukung tercapainya
-                sistem kesehatan nasional yang lebih baik.
-              </p>
+        <div className="mt-10">
+          <h2 className="font-medium text-2xl mb-2 text-primary-color text-center">Welcome Message</h2>
+          <div className="border border-primary-color rounded-xl p-7">
+            <div className="flex items-center mb-4">
+              <div className="w-28 z-50 h-28 md:w-32 md:h-32 rounded-full flex items-center justify-center border-8 border-yellow-400">
+                <Image src={LeaderPerhimpunan} alt="leader FMF" className="rounded-full w-full h-full object-cover object-top" />
+              </div>
+              <div className="flex -ml-3 flex-col bg-primary-color text-white px-8 py-3 rounded-r-full" >
+                <h3 className="font-medium text-sm md:text-base">Dr. dr. Isti Ilmiati Fujiati, MSc.CM-FM, M.Pd.Ked, Sp. KKLP, Subsp. COPC</h3>
+                <p className="text-sm">Chair of Indonesia Association of Family Physicians</p>
+              </div>
             </div>
+            <p className="text-sm mt-3">
+              We give thanks to God Almighty for holding the Family Medicine Forum (FMF) 2025. This forum exists as a form of joint commitment to strengthen the role of family medicine in supporting the transformation of health services in Indonesia. 
+            </p>
+            <p className="text-sm mt-3">
+              Through FMF 2025, we hope to encourage the creation of strategic recommendations, including
+              strengthening service continuity through integrated care pathways, developing models
+              sustainable Sp.KKLP financing, and development of more service mechanisms
+              effective. All of this aims to make a real contribution in supporting its achievement
+              a better national health system 
+            </p>
+            <p className="text-sm mt-3">
+              Thank you to all parties who have contributed to holding FMF 2025.
+              Hopefully this forum will be an inspiration and the first step towards positive change for medicine
+              family and health services in Indonesia. 
+            </p>
           </div>
-        </div>
+          <div className="border-t mt-4 border border-primary-color rounded-xl p-7">
+            <div className="flex items-center mb-4">
+              <div className="w-28 z-50 h-28 md:w-32 md:h-32 rounded-full flex items-center justify-center border-8 border-yellow-400">
+                <Image src={LeaderPanitia} alt="leader FMF" className="rounded-full w-full h-full object-cover object-top" />
+              </div>
+              <div className="flex -ml-3 flex-col bg-primary-color text-white px-8 py-3 rounded-r-full" >
+                <h3 className="font-medium text-sm md:text-base">dr. Novana Perdana Putri, Sp.KKLP</h3>
+                <p className="text-sm">Chair, Organizing Committee Family Medicine Forum 2025</p>
+              </div>
+            </div>
+            <p className="text-sm mt-3">
+              With gratitude, we, the committee of the Family Medicine Forum (FMF)
+              2025 presents this forum as a discussion platform and
+              collaboration to strengthen the role of family medicine in
+              transformation of health services in Indonesia. 
+            </p>
+            <p className="text-sm mt-3">
+              We would like to thank all those who have worked hard to
+              make FMF 2025 a success. Hopefully this forum will bring great benefits for development
+              family medicine and the health system in Indonesia. 
+            </p>
+          </div>
+        </div> 
       </div>
     </div>
   );

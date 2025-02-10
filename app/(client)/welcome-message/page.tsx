@@ -65,13 +65,6 @@ export default function WelcomeMessage() {
             transformation of health services in Indonesia. 
           </p>
           <p className="text-sm mt-3">
-            FMF 2025 dirancang untuk menjawab berbagai tantangan dalam sistem kesehatan kita,
-            khususnya di layanan primer. Fokus utama forum ini adalah memperkuat kesinambungan
-            pelayanan melalui pendekatan terintegrasi, merancang sistem pembiayaan yang mendukung
-            keberlanjutan layanan dokter keluarga spesialis (Sp.KKLP), dan menghadirkan inovasi untuk
-            meningkatkan kualitas layanan primer.  
-          </p>
-          <p className="text-sm mt-3">
             FMF 2025 is designed to address various challenges in our health system,
             especially in primary care. The main focus of this forum is to strengthen sustainability
             services through an integrated approach, designing a supportive financing system
