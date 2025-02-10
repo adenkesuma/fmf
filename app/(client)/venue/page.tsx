@@ -2,8 +2,8 @@
 
 import BannerTitle from "@/components/banner-title";
 import Image from "next/image";
-import VenueImage1 from "@/public/images/venue-image-1.png";
-import VenueImage2 from "@/public/images/venue-image-2.png";
+import VenueImage1 from "@/public/images/venue-image-1.jpg";
+import VenueImage2 from "@/public/images/venue-image-2.webp";
 import dynamic from "next/dynamic";
 const Maps = dynamic(() => import("@/components/maps"), { ssr: false });
 
@@ -15,7 +15,7 @@ export default function InvitedSpeakers() {
         <div>
           <div className="bg-primary-color py-2 px-3 rounded-br-2xl w-1/2">
             <h2 className="font-medium text-base text-white">
-              Monas Jakarta, Indonesia
+              JW Marriot Hotel, Jakarta
             </h2>
           </div>
           <p className="text-sm font-medium text-primary-color mt-4">
@@ -26,11 +26,11 @@ export default function InvitedSpeakers() {
             karena lokasi ditempati dengan fasilitas dan pemandangan yang bagus.
           </span>
           <div className="flex items-center gap-6 w-full mt-2">
-            <div className="rounded-xl">
-              <Image src={VenueImage1} alt="venue image 1" />
+            <div className="rounded-xl w-full h-full">
+              <Image className="w-full h-80 object-cover bg-cover" src={VenueImage1} alt="venue image 1" />
             </div>
-            <div className="rounded-xl">
-              <Image src={VenueImage2} alt="venue image 2" />
+            <div className="rounded-xl w-full h-full">
+              <Image className="w-full h-80 object-cover bg-cover" src={VenueImage2} alt="venue image 2" />
             </div>
           </div>
           <div className="mb-4 flex flex-col border-t-4 border-primary-color mt-6">
@@ -39,7 +39,7 @@ export default function InvitedSpeakers() {
                 <span>Lokasi</span>
               </div>
               <div className="block text-sm w-4/5 p-2 border-l">
-                <span>Monas Jakarta, Indonesia</span>
+                <span>JW Marriot Hotel, Jakarta</span>
               </div>
             </div>
             <div className={`flex items-center border-x border-t`}>
@@ -47,7 +47,7 @@ export default function InvitedSpeakers() {
                 <span>Alamat</span>
               </div>
               <div className="block text-sm w-4/5 p-2 border-l">
-                <span>Monas Jakarta, Indonesia</span>
+                <span>Jalan DR Ide Anak Agung Gde Agung Kav E.1.2 No 1&2, Kawasan Mega Kuningan, Jakarta, Indonesia, 12950</span>
               </div>
             </div>
             <div className={`flex items-center border-x border-t`}>
@@ -55,7 +55,7 @@ export default function InvitedSpeakers() {
                 <span>Kontak</span>
               </div>
               <div className="block text-sm w-4/5 p-2 border-l">
-                <span>+62 3942 2348 2342</span>
+                <span>+62 812 6033 7148</span>
               </div>
             </div>
             <div className={`flex items-center border-x border-y`}>

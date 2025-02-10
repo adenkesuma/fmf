@@ -9,7 +9,8 @@ let L: typeof import("leaflet"); // Deklarasi tipe untuk Leaflet
 
 const Maps = () => {
   const [customIcon, setCustomIcon] = useState<L.Icon | null>(null); // Berikan tipe untuk customIcon
-  const monasPosition = [-6.175392, 106.827153];
+  const monasPosition = [-6.227611, 106.827147];
+
 
   useEffect(() => {
     if (typeof window === "undefined") return;
@@ -45,7 +46,7 @@ const Maps = () => {
           position={L.latLng(monasPosition[0], monasPosition[1])}
           icon={customIcon}
         >
-          <Popup>Monumen Nasional (Monas), Jakarta</Popup>
+          <Popup>JW Marriot Hotel, Jakarta</Popup>
         </Marker>
       </MapContainer>
     </div>
