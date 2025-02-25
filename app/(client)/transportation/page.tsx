@@ -5,93 +5,123 @@ export default function InvitedSpeakers() {
     <div className="h-full">
       <BannerTitle message="Transportasi" /> 
       <div className="mx-auto container px-20 py-10 min-h-screen">
-        <div>
-          <h2 className="font-medium text-2xl mb-2 text-primary-color">
-            Bagaimana cara datang ke lokasi FMF June 2025
-          </h2>
-          <div className="mb-4 flex flex-col border-t-4 border-primary-color">
-            <div className={`flex items-center border-x border-t`}>
-              <div className="block text-sm w-1/5 p-2 bg-blue-500/10 font-medium">
-                <span>Route 1</span>
-              </div>
-              <div className="block text-sm w-4/5 p-2 border-l">
-                <span>Jalan kaki dari bandung ke jakarta</span>
-              </div>
-            </div>
-            <div className={`flex items-center border-x border-t`}>
-              <div className="block text-sm w-1/5 p-2 bg-blue-500/10 font-medium">
-                <span>Route 2</span>
-              </div>
-              <div className="block text-sm w-4/5 p-2 border-l">
-                <span>Melalui bus kota</span>
-              </div>
-            </div>
-            <div className={`flex items-center border-x border-t`}>
-              <div className="block text-sm w-1/5 p-2 bg-blue-500/10 font-medium">
-                <span>Route 3</span>
-              </div>
-              <div className="block text-sm w-4/5 p-2 border-l">
-                <span>Melalui pesawat terbang</span>
-              </div>
-            </div>
-            <div className={`flex items-center border-x border-t border-b`}>
-              <div className="block text-sm w-1/5 p-2 bg-blue-500/10 font-medium">
-                <span>Route 4</span>
-              </div>
-              <div className="block text-sm w-4/5 p-2 border-l">
-                <span>Melalui kereta api bawah tanah</span>
-              </div>
-            </div>
-          </div> 
-        </div>
-        <div className="mt-10">
-          <div className="bg-primary-color mb-2 py-2 px-3 rounded-br-2xl w-1/2">
+        
+       <div className="mt-10">
+          <div className="mb-4 bg-primary-color py-2 px-3 rounded-br-2xl w-full md:w-1/2">
             <h2 className="font-medium text-base text-white">
-              Menggunakan Taksi Online
+              Cara Menuju JW Marriot Hotel Jakarta
             </h2>
           </div>
-          <p className="text-sm">Kamu bisa menggunakan layanan Taksi online pada tabel dibawah ini yang disediakan di indonesia untuk sampai ke acara tujuan</p>
-          <div className="mt-2 mb-4 flex flex-col border-t-4 border-primary-color">
-            <div className={`flex items-center border-x border-t`}>
-              <div className="block text-sm w-1/5 p-2 bg-blue-500/10 font-medium">
-                <span>Go Car</span>
-              </div>
-              <div className="block text-sm w-4/5 p-2 border-l">
-                <span>2 Jam dari bandara pusat jakarta</span>
-              </div>
-            </div>
-            <div className={`flex items-center border-x border-t`}>
-              <div className="block text-sm w-1/5 p-2 bg-blue-500/10 font-medium">
-                <span>Gojek</span>
-              </div>
-              <div className="block text-sm w-4/5 p-2 border-l">
-                <span>1 Jam dari bandara pusat jakarta</span>
-              </div>
-            </div>
-            <div className={`flex items-center border-x border-t`}>
-              <div className="block text-sm w-1/5 p-2 bg-blue-500/10 font-medium">
-                <span>Grab Car</span>
-              </div>
-              <div className="block text-sm w-4/5 p-2 border-l">
-                <span>2 Jam dari bandara pusat jakarta</span>
-              </div>
-            </div>
-            <div className={`flex items-center border-x border-t`}>
-              <div className="block text-sm w-1/5 p-2 bg-blue-500/10 font-medium">
-                <span>Grab Motor</span>
-              </div>
-              <div className="block text-sm w-4/5 p-2 border-l">
-                <span>1 Jam dari bandara pusat jakarta</span>
-              </div>
-            </div>
-            <div className={`flex items-center border-x border-t border-b`}>
-              <div className="block text-sm w-1/5 p-2 bg-blue-500/10 font-medium">
-                <span>Maxim Car</span>
-              </div>
-              <div className="block text-sm w-4/5 p-2 border-l">
-                <span>2 Jam dari bandara pusat jakarta</span>
-              </div>
-            </div>
+          <div className="mt-4">
+            <h3 className="text-base font-medium text-primary-color">
+              A. Dari Bandara Internasional Soekarno-Hatta
+            </h3>
+            <ul className="flex flex-col mt-2">
+              <li className="flex gap-3">
+                <span>•</span>
+                <p className="text-sm text-gray-600">
+                  <span className="font-bold text-black">Jarak: </span> Sekitar 31 km dari hotel
+                </p>
+              </li>
+              <li className="flex gap-3">
+                <span>•</span>
+                <p className="text-sm text-gray-600">
+                  <span className="font-bold text-black">Taksi atau Transportasi Online: </span> Perjalanan memakan waktu sekitar 45 - 60 menit, tergantung kondisi lalu lintas
+                </p>
+              </li>
+              <li className="flex gap-3">
+                <span>•</span>
+                <p className="text-sm text-gray-600">
+                  <span className="font-bold text-black">Layanan Antar - Jemput Bandara </span> Hotel menyediakan layanan antar-jemput dengan biaya kurang lebih Rp649.000 untuk sekali jalan dan Rp 1.078.000 untuk pulang pergi. (Reservasi diperlukan sebelumnya).
+                </p>
+              </li>
+            </ul>
+          </div>
+          <div className="mt-4">
+            <h3 className="text-base font-medium text-primary-color">
+              B. Dari Bandara Internasional Halim Perdanakusuma
+            </h3>
+            <ul className="flex flex-col mt-2">
+              <li className="flex gap-3">
+                <span>•</span>
+                <p className="text-sm text-gray-600">
+                  <span className="font-bold text-black">Jarak: </span> Sekitar 9,9 km dari hotel
+                </p>
+              </li>
+              <li className="flex gap-3">
+                <span>•</span>
+                <p className="text-sm text-gray-600">
+                  <span className="font-bold text-black">Taksi atau Transportasi Online: </span> Perjalanan memakan waktu sekitar 30 - 45 menit, tergantung kondisi lalu lintas
+                </p>
+              </li>
+              <li className="flex gap-3">
+                <span>•</span>
+                <p className="text-sm text-gray-600">
+                  <span className="font-bold text-black">Catatan: </span> Hotel tidak menyediakan layanan antar-jemput dari bandara ini.
+                </p>
+              </li>
+            </ul>
+          </div>
+          <div className="mt-4">
+            <h3 className="text-base font-medium text-primary-color">
+              C. Menggunakan Transportasi Umum 
+            </h3>
+            <ul className="flex flex-col mt-2">
+              <li className="flex flex-col gap-1">
+                <div className="flex items-center gap-2 font-semibold text-black">
+                  <span>1.</span>
+                  <p className="text-sm">
+                    Buss
+                  </p>
+                </div>
+                <div className="ml-5">
+                  <p className="text-gray-600 text-sm">
+                    <span className="text-black font-semibold">Halte Terdekat: </span>Pos Polisi Satrio dan Mega Kuningan, keduanya berjarak sekitar 5 menit berjalan kaki dari hotel.
+                  </p>
+                </div>
+                <div className="ml-5">
+                  <div className="text-gray-600 text-sm flex flex-col">
+                    <span className="text-black font-semibold">Rute Buss yang Melayani area ini: </span>
+                    <span>- 5F : Kampung Melayu - Tanah Abang</span>
+                    <span>- 6D : Stasiun Tebet - Bundaran Senayan</span>
+                    <span>- 6K : Kuningan - Karet</span>
+                    <span>- JAK48A : Stasiun Tebet - Rusun Karet Tengsin</span>
+                    <span>- M44 : Kampung Melayu - Karet</span>
+                  </div>
+                </div>
+              </li>
+              <li className="flex flex-col gap-1">
+                <div className="flex items-center gap-2 font-semibold text-black">
+                  <span>2.</span>
+                  <p className="text-sm">
+                    MRT
+                  </p>
+                </div>
+                <div className="ml-5">
+                  <p className="text-gray-600 text-sm">
+                    <span className="text-black font-semibold">Stasiun Terdekat: </span>Bendungan Hilir, berjarak sekitar 12 menit berjalan kaki dari hotel
+                  </p>
+                </div>
+                <div className="ml-5">
+                  <p className="text-gray-600 text-sm">
+                    <span className="text-black font-semibold">Rute: </span>Lebak Bulus Grab - Bundaran HI
+                  </p>
+                </div>
+              </li>
+              <li className="flex flex-col gap-1">
+                <div className="flex items-center gap-2 font-semibold text-black">
+                  <span>3.</span>
+                  <p className="text-sm">
+                    LRT
+                  </p>
+                </div>
+                <div className="ml-5">
+                  <p className="text-gray-600 text-sm">
+                    <span className="text-black font-semibold">Stasiun Terdekat: </span>Kuningan, Berjarak sekitar 16 menit berjalan kaki dari hotel.
+                  </p>
+                </div>
+              </li>
+            </ul>
           </div> 
         </div>
       </div>

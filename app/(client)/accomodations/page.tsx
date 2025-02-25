@@ -22,7 +22,7 @@ export default function InvitedSpeakers() {
             Silakan lihat daftar hotel alternatif di bawah ini dan lakukan pemesanan sesuai preferensi Anda. Kami menyarankan untuk melakukan reservasi lebih awal agar mendapatkan harga dan ketersediaan terbaik.
           </p>
           <p className="text-sm mt-1">
-            Kami menantikan kehadiran Anda di Busan untuk WONCA APR 2025!
+            Kami menantikan kehadiran Anda di Lokasi Acara.
           </p>
         </div>
         <div className="w-full mt-8">

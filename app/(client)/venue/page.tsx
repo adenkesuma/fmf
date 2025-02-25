@@ -49,14 +49,6 @@ export default function InvitedSpeakers() {
                 <span>Jalan DR Ide Anak Agung Gde Agung Kav E.1.2 No 1&2, Kawasan Mega Kuningan, Jakarta, Indonesia, 12950</span>
               </div>
             </div>
-            <div className={`flex items-center border-x border-t`}>
-              <div className="block text-sm w-1/5 p-2">
-                <span>Kontak</span>
-              </div>
-              <div className="block text-sm w-4/5 p-2 border-l">
-                <span>+62 812 6033 7148</span>
-              </div>
-            </div>
             <div className={`flex items-center border-x border-y`}>
               <div className="block text-sm w-1/5 p-2">
                 <span>Daftar</span>
