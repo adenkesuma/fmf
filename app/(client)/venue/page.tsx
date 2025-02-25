@@ -1,12 +1,11 @@
-// "use client";
+"use client";
 
 import BannerTitle from "@/components/banner-title";
 import Image from "next/image";
 import VenueImage1 from "@/public/images/venue-image-1.jpg";
 import VenueImage2 from "@/public/images/venue-image-2.webp";
-// import dynamic from "next/dynamic";
-// import maps from "@/components/maps";
-// const Maps = dynamic(() => import("@/components/maps"), { ssr: false });
+import dynamic from "next/dynamic";
+const MapsNoSSR = dynamic(() => import("@/components/maps"), { ssr: false });
 
 export default function InvitedSpeakers() {
   return (
@@ -70,12 +69,12 @@ export default function InvitedSpeakers() {
             </div>
           </div>
         </div>
-        {/* <div className="mt-10">
+        <div className="mt-10">
           <div className="mb-4 bg-primary-color py-2 px-3 rounded-br-2xl w-full md:w-1/2">
             <h2 className="font-medium text-base text-white">Lokasi</h2>
           </div>
-          <Maps />
-        </div> */}
+          <MapsNoSSR />
+        </div>
         <div className="mt-10">
           <div className="mb-4 bg-primary-color py-2 px-3 rounded-br-2xl w-full md:w-1/2">
             <h2 className="font-medium text-base text-white">

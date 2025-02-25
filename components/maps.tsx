@@ -2,39 +2,38 @@
 
 import { useEffect, useState } from "react";
 import { MapContainer, TileLayer, Marker, Popup } from "react-leaflet";
+import L from "leaflet";
 import "leaflet/dist/leaflet.css";
-import dynamic from "next/dynamic";
 
-let L: typeof import("leaflet"); // Deklarasi tipe untuk Leaflet
+const MapComponent = () => {
+  const [isClient, setIsClient] = useState(false); // State untuk mengecek apakah di client-side
+  const [customIcon, setCustomIcon] = useState<L.Icon | null>(null); // State untuk custom icon
 
-const Maps = () => {
-  const [customIcon, setCustomIcon] = useState<L.Icon | null>(null); // Berikan tipe untuk customIcon
-  const monasPosition = [-6.227611, 106.827147];
-
+  const monasPosition: L.LatLngExpression = [-6.227611, 106.827147];
 
   useEffect(() => {
-    if (typeof window === "undefined") return;
-    (async () => {
-      const leaflet = await import("leaflet");
-      L = leaflet.default;
+    // Pastikan kode ini hanya berjalan di client-side
+    setIsClient(true);
 
-      setCustomIcon(
-        new L.Icon({
-          iconUrl:
-            "https://unpkg.com/leaflet@1.9.4/dist/images/marker-icon.png",
-          iconSize: [25, 41],
-          iconAnchor: [12, 41],
-        })
-      );
-    })();
+    // Load custom icon
+    setCustomIcon(
+      L.icon({
+        iconUrl: "https://unpkg.com/leaflet@1.9.4/dist/images/marker-icon.png",
+        iconSize: [25, 41],
+        iconAnchor: [12, 41],
+      })
+    );
   }, []);
 
-  if (!customIcon) return <div>Loading map...</div>;
+  // Jika belum di client-side atau customIcon belum di-load, tampilkan loading
+  if (!isClient || !customIcon) {
+    return <div>Loading map...</div>;
+  }
 
   return (
     <div className="w-full h-[500px] rounded-xl">
       <MapContainer
-        center={L.latLng(monasPosition[0], monasPosition[1])}
+        center={monasPosition}
         zoom={16}
         className="w-full h-full"
       >
@@ -42,15 +41,12 @@ const Maps = () => {
           url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
           attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
         />
-        <Marker
-          position={L.latLng(monasPosition[0], monasPosition[1])}
-          icon={customIcon}
-        >
-          <Popup>JW Marriot Hotel, Jakarta</Popup>
+        <Marker position={monasPosition} icon={customIcon}>
+          <Popup>JW Marriott Hotel, Jakarta</Popup>
         </Marker>
       </MapContainer>
     </div>
   );
 };
 
-export default dynamic(() => Promise.resolve(Maps), { ssr: false });
+export default MapComponent;

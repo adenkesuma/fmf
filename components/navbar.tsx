@@ -57,13 +57,13 @@ export default function Navbar() {
             </DropdownMenuTrigger>
             <DropdownMenuContent className="bg-primary-color border-white/20 text-white">
               <DropdownMenuItem>
-                <Link href={'/welcome-message'} className="text-sm font-medium">Welcome Message</Link>
+                <Link href={'/welcome-message'} className="text-sm font-medium">Pesan Selamat Datang</Link>
               </DropdownMenuItem>
               <DropdownMenuItem>
-                <Link href={'/overview'} className="text-sm font-medium">Overview</Link>
+                <Link href={'/overview'} className="text-sm font-medium">Ringkasan</Link>
               </DropdownMenuItem>
               <DropdownMenuItem>
-                <Link href={'/organizing-commitee'} className="text-sm font-medium">Organizing Committee</Link> 
+                <Link href={'/organizing-commitee'} className="text-sm font-medium">Organisasi Komite</Link> 
               </DropdownMenuItem>
             </DropdownMenuContent>
           </DropdownMenu>
@@ -78,17 +78,18 @@ export default function Navbar() {
             </DropdownMenuTrigger>
             <DropdownMenuContent className="bg-primary-color border-white/20 text-white">
               <DropdownMenuItem>
-                <Link href={'/program-at-glance'} className="text-sm font-medium">Program at a Glance</Link>
+                <Link href={'/program-at-glance'} className="text-sm font-medium">Sekilas Tentang Program</Link>
               </DropdownMenuItem>
               <DropdownMenuItem>
-                <Link href={'/invited-speakers'} className="text-sm font-medium">Invited Speakers</Link>
+                <Link href={'#'} className="text-sm font-medium">Pembicara</Link>
               </DropdownMenuItem>
             </DropdownMenuContent>
           </DropdownMenu>
-          <Link href={'/registration'} className="text-black text-sm font-medium py-2">Registration</Link>
-          <Link href={'/sponsorship'} className="text-black text-sm font-medium py-2">Sponsorship</Link>
-          <Link href={'/accomodations'} className="text-black text-sm font-medium">Acomodation</Link>
-          <DropdownMenu>
+          <Link href={'#'} className="text-black text-sm font-medium py-2">Pendaftran</Link>
+          <Link href={'#'} className="text-black text-sm font-medium py-2">Sponsor</Link>
+          <Link href={'/accomodations'} className="text-black text-sm font-medium">Akomodasi</Link>
+          <Link href={'/venue'} className="text-black text-sm font-medium">Lokasi</Link>
+          {/* <DropdownMenu>
             <DropdownMenuTrigger className="outline-none border-none">
               <span className="text-black text-sm font-medium py-2 flex items-center gap-1">
                 <span>Information</span>
@@ -99,7 +100,6 @@ export default function Navbar() {
             </DropdownMenuTrigger>
             <DropdownMenuContent className="bg-primary-color border-white/20 text-white">
               <DropdownMenuItem>
-                <Link href={'/venue'} className="text-sm font-medium">Venue</Link>
               </DropdownMenuItem>
               <DropdownMenuItem>
                 <Link href={'/jakarta-indonesia'} className="text-sm font-medium">Jakarta, Indonesia</Link>
@@ -111,7 +111,7 @@ export default function Navbar() {
                 <Link href={'/general-information'} className="text-sm font-medium">General Information</Link>
               </DropdownMenuItem>
             </DropdownMenuContent>
-          </DropdownMenu>
+          </DropdownMenu> */}
         </div>
       </div>
     </div>

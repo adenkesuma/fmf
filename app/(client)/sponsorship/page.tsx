@@ -1,6 +1,6 @@
 import BannerTitle from "@/components/banner-title"
 import Image from "next/image"
-import BannerSponsor from "@/public/images/sponsor-banner.png";
+import BannerSponsor from "@/public/images/img_sponsor.png";
 
 export default function Sponsorship() {
   return (
@@ -10,7 +10,7 @@ export default function Sponsorship() {
         <h2 className="font-medium text-2xl mb-2 text-primary-color">About FMF</h2>
         <div className="bg-blue-500/10 mb-8 p-4 rounded-xl">
           <p className="text-sm">
-            FMF is an organization operating in the fields of education and medicine. 
+            FMF adalah organisasi yang bergerak di bidang pendidikan dan kedokteran.
           </p>
         </div>
 
