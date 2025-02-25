@@ -3,11 +3,10 @@ import BannerTitle from "@/components/banner-title"
 export default function InvitedSpeakers() {
   const jakartaInfo = 
   {
-    nama: "Jakarta",
-    populasi: "10 juta (perkiraan 2025)",
-    luas: "662 km²",
-    zonaWaktu: "Waktu Indonesia Barat (WIB)",
-    kodeNegara: "ID",
+    name: "Jakarta",
+    wide: "662 km²",
+    timeZone: "Waktu Indonesia Barat (WIB)",
+    countryCode: "ID",
     areaCode: "+62 21"
   };
 
@@ -18,7 +17,7 @@ export default function InvitedSpeakers() {
         <div>
           <div className="bg-primary-color py-2 px-3 rounded-br-2xl w-1/2">
             <h2 className="font-medium text-base text-white">
-              Lihatlah Keindahan Kota Jakarta
+             See the Beauty of the City of Jakarta 
             </h2>
           </div>
           <div className="mt-4">
@@ -30,7 +29,7 @@ export default function InvitedSpeakers() {
         <div className="mt-10">
           <div className="bg-primary-color py-2 px-3 rounded-br-2xl w-1/2">
             <h2 className="font-medium text-base text-white">
-              Tentang Jakarta
+              About Jakarta
             </h2>
           </div>
           <div className="mb-4 flex flex-col border-t-4 border-primary-color mt-4">
