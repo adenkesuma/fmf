@@ -1,4 +1,4 @@
-import CarouselSpeakers from "@/components/carousel-speakers";
+// import CarouselSpeakers from "@/components/carousel-speakers";
 import Banner from "@/components/banner";
 import Image from "next/image";
 import LeaderPerhimpunan from "@/public/images/isti.png";
@@ -11,10 +11,10 @@ export default function Home() {
       <Banner />
       <div className="px-6 lg:px-20 pb-6 mt-10 container mx-auto">
         <div className="flex w-full flex-col lg:flex-row items-start gap-y-8 gap-x-14">
-          <div className="w-full">
+          {/* <div className="w-full">
             <h2 className="font-medium text-2xl mb-2 text-primary-color text-center md:text-left">Invited Speakers</h2>
             <CarouselSpeakers />
-          </div>
+          </div> */}
           <div className="w-full">
             <h2 className="font-medium text-2xl text-primary-color text-center md:text-left">Important Date</h2>
             <div className="w-full grid grid-cols-1 md:grid-cols-2 mt-2 gap-4">
