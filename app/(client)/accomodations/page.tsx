@@ -9,26 +9,26 @@ const MapsNoSSR = dynamic(() => import("@/components/maps"), { ssr: false });
 export default function InvitedSpeakers() {
   return (
     <div className="h-full">
-      <BannerTitle message="Akomodasi" />
+      <BannerTitle message="Akomodation" />
       <div className="mx-auto container px-20 py-10 min-h-screen">
         <h2 className="font-medium text-2xl mb-2 text-primary-color">
-          Pilihan Akomodasi Di Sekitar Lokasi Konferensi
+          Accommodation Options Near the Conference Location
         </h2>
         <div className="rounded-xl bg-blue-500/10 p-4">
           <p className="text-sm">
-            Panitia sedang dalam proses mengamankan tarif khusus untuk hotel di lokasi konferensi. Namun, bagi peserta yang ingin mencari alternatif akomodasi, tersedia berbagai pilihan hotel di sekitar venue yang dapat dipesan langsung melalui Online Travel Agent (OTA) atau langsung ke pihak hotel.
+            Organizers are in the process of securing special rates for hotels at conference locations. However, for participants who want to look for alternative accommodation, there are various hotel options available around the venue which can be booked directly through the Online Travel Agent (OTA) or directly from the hotel. 
           </p>
           <p className="text-sm mt-3">
-            Silakan lihat daftar hotel alternatif di bawah ini dan lakukan pemesanan sesuai preferensi Anda. Kami menyarankan untuk melakukan reservasi lebih awal agar mendapatkan harga dan ketersediaan terbaik.
+            Please see the list of alternative hotels below and make a booking according to your preferences. We recommend making reservations early to get the best prices and availability.
           </p>
           <p className="text-sm mt-1">
-            Kami menantikan kehadiran Anda di Lokasi Acara.
+            We look forward to welcoming you to the Event Location.
           </p>
         </div>
         <div className="w-full mt-8">
           <div className="w-full bg-primary-color py-2 px-4 rounded-t-xl">
             <h3 className="font-medium text-lg text-white">
-              FMF June 2025 Akomodasi
+              FMF June 2025 Akomodation
             </h3>
           </div>
           <MapsNoSSR />
@@ -39,16 +39,16 @@ export default function InvitedSpeakers() {
               <span className="font-medium">No</span>
             </div>
             <div className="block text-sm w-1/5 p-2 border-x">
-              <span className="font-medium">Bintang</span>
+              <span className="font-medium">Rating</span>
             </div>
             <div className="block text-sm w-1/5 p-2 border-r">
               <span className="font-medium">Hotel</span>
             </div>
             <div className="block text-sm w-1/5 p-2">
-              <span className="font-medium">Jarak</span>
+              <span className="font-medium">Distance</span>
             </div>
             <div className="block text-sm w-1/5 p-2 border-x">
-              <span className="font-medium">Harga</span>
+              <span className="font-medium">Price</span>
             </div>
             <div className="block text-sm w-1/5 p-2">
               <span className="font-medium">Website</span>
@@ -104,10 +104,10 @@ export default function InvitedSpeakers() {
         </div>
 
         <div className="text-sm mt-6">
-          <span>Catatan:</span>
+          <span>Notes:</span>
           <ul>
-            <li>- Harga dapat berubah tergantung ketersediaan dan musim pemesanan.</li>
-            <li>- Informasi berdasarkan sumber seperti Tripadvisor, Traveloka dan Booking.com</li>
+            <li>- Prices may change depending on availability and booking season..</li>
+            <li>- Information based on sources such as Tripadvisor, Traveloka and Booking.com</li>
           </ul>
         </div>
       </div>
