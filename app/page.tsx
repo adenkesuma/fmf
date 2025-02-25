@@ -9,7 +9,7 @@ export default function Home() {
   return (
     <div className="h-full">
       <Banner />
-      <div className="px-6 lg:px-20 pb-6 mt-10 container mx-auto">
+      <div className="px-6 lg:px-20 pb-6 mt-32 container mx-auto">
         <div className="flex w-full flex-col lg:flex-row items-start gap-y-8 gap-x-14">
           {/* <div className="w-full">
             <h2 className="font-medium text-2xl mb-2 text-primary-color text-center md:text-left">Invited Speakers</h2>
