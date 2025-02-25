@@ -46,9 +46,9 @@ const CountdownCard: React.FC<CountdownCardProps> = ({ eventDate }) => {
   }, [eventDate]);
 
   return (
-    <div className="flex flex-col items-center justify-center w-full bg-yellow-400 rounded-xl h-full py-2 px-3 md:px-5 md:py-2">
-      <h2 className="text-lg font-medium mb-2 text-primary-color">Jadwal Acara</h2>
-      <div className="w-full flex items-center justify-center gap-4">
+    <div className="flex flex-col items-center justify-center w-full bg-yellow-400 rounded-xl h-full py-2 px-3 md:px-5 md:py-4">
+      <h2 className="text-xl font-medium mb-2 text-primary-color">Countdown</h2>
+      <div className="w-full grid grid-cols-4 gap-4">
         <div className="text-center w-full rounded-lg p-2 bg-white">
           <span className="block -mb-2 text-lg font-semibold text-primary-color">{timeLeft.days}</span>
           <span className="text-xs font-normal text-black">Day</span>
@@ -66,9 +66,6 @@ const CountdownCard: React.FC<CountdownCardProps> = ({ eventDate }) => {
           <span className="text-xs font-normal text-black">Second</span>
         </div>
       </div>
-      <p className="text-sm md:text-base text-center mt-2 text-primary-color">
-        Acara Di Mulai Pada Tanggal: Juni, 26 - 28, 2025
-      </p>
     </div>
   );
 };
