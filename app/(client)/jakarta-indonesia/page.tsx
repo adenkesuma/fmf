@@ -24,9 +24,9 @@ export default function InvitedSpeakers() {
   return (
     <div className="h-full">
       <BannerTitle message="Jakarta, Indonesia" /> 
-      <div className="mx-auto container px-20 py-10 min-h-screen">
+      <div className="mx-auto container px-6 lg:px-20 py-10 min-h-screen">
         <div>
-          <div className="bg-primary-color py-2 px-3 rounded-br-2xl w-1/2">
+          <div className="bg-primary-color py-2 px-3 rounded-br-2xl w-full md:w-1/2">
             <h2 className="font-medium text-base text-white">
              See the Beauty of the City of Jakarta 
             </h2>
@@ -57,17 +57,17 @@ export default function InvitedSpeakers() {
           </div>
         </div>
         <div className="mt-10 w-full">
-          <div className="bg-primary-color py-2 px-3 rounded-br-2xl w-1/2">
+          <div className="bg-primary-color py-2 px-3 rounded-br-2xl w-full md:w-1/2">
             <h2 className="font-medium text-base text-white">
               Favorite Destinations Near JW Marriott Hotel Jakarta
             </h2>
           </div>
           <div className="flex flex-col gap-8">
-            <div className="w-full flex items-center gap-6 mt-4">
-              <div className="w-1/3 h-60">
+            <div className="w-full flex flex-col md:flex-row items-center gap-6 mt-4">
+              <div className="w-full md:w-1/3 h-60">
                 <Image className="rounded-br-3xl w-full h-60 bg-cover" src={Destination1} alt='mall ambassador' />
               </div>
-              <div className="w-2/3">
+              <div className="w-full md:w-2/3">
                 <div className="flex items-center gap-2 relative">
                   <div className="relative">
                     <div className="w-3 h-3 bg-yellow-400 absolute -bottom-0"></div>
@@ -83,11 +83,11 @@ export default function InvitedSpeakers() {
                 </a>
               </div>
             </div>
-            <div className="w-full flex items-center gap-6 mt-4">
-              <div className="w-1/3 h-60">
+            <div className="w-full flex flex-col md:flex-row items-center gap-6 mt-4">
+              <div className="w-full md:w-1/3 h-60">
                 <Image className="rounded-br-3xl w-full h-60 bg-cover" src={Destination2} alt='mall ambassador' />
               </div>
-              <div className="w-2/3">
+              <div className="w-full md:w-2/3">
                 <div className="flex items-center gap-2 relative">
                   <div className="relative">
                     <div className="w-3 h-3 bg-yellow-400 absolute -bottom-0"></div>
@@ -104,11 +104,11 @@ Lotte Shopping Avenue is a modern shopping center that offers various internatio
                 </a>
               </div>
             </div>
-            <div className="w-full flex items-center gap-6 mt-4">
-              <div className="w-1/3 h-60">
+            <div className="w-full flex flex-col md:flex-row items-center gap-6 mt-4">
+              <div className="w-full md:w-1/3 h-60">
                 <Image className="rounded-br-3xl w-full h-60 bg-cover" src={Destination3} alt='mall ambassador' />
               </div>
-              <div className="w-2/3">
+              <div className="w-full md:w-2/3">
                 <div className="flex items-center gap-2 relative">
                   <div className="relative">
                     <div className="w-3 h-3 bg-yellow-400 absolute -bottom-0"></div>
@@ -125,11 +125,11 @@ Known as the lifestyle center in South Jakarta, Kuningan City Mall offers a vari
                 </a>
               </div>
             </div>
-            <div className="w-full flex items-center gap-6 mt-4">
-              <div className="w-1/3 h-60">
+            <div className="w-full flex flex-col md:flex-row items-center gap-6 mt-4">
+              <div className="w-full md:w-1/3 h-60">
                 <Image className="rounded-br-3xl w-full h-60 bg-cover" src={Destination4} alt='mall ambassador' />
               </div>
-              <div className="w-2/3">
+              <div className="w-full md:w-2/3">
                 <div className="flex items-center gap-2 relative">
                   <div className="relative">
                     <div className="w-3 h-3 bg-yellow-400 absolute -bottom-0"></div>
@@ -146,11 +146,11 @@ A large mall that offers various shopping outlets, restaurants and entertainment
                 </a>
               </div>
             </div>
-            <div className="w-full flex items-center gap-6 mt-4">
-              <div className="w-1/3 h-60">
+            <div className="w-full flex flex-col md:flex-row items-center gap-6 mt-4">
+              <div className="w-full md:w-1/3 h-60">
                 <Image className="rounded-br-3xl w-full h-60 bg-cover" src={Destination5} alt='mall ambassador' />
               </div>
-              <div className="w-2/3">
+              <div className="w-full md:w-2/3">
                 <div className="flex items-center gap-2 relative">
                   <div className="relative">
                     <div className="w-3 h-3 bg-yellow-400 absolute -bottom-0"></div>
@@ -167,11 +167,11 @@ One of the luxury shopping centers in Jakarta that offers a variety of premium b
                 </a>
               </div>
             </div>
-            <div className="w-full flex items-center gap-6 mt-4">
-              <div className="w-1/3 h-60">
+            <div className="w-full flex flex-col md:flex-row items-center gap-6 mt-4">
+              <div className="w-full md:w-1/3 h-60">
                 <Image className="rounded-br-3xl w-full h-60 bg-cover" src={Destination6} alt='mall ambassador' />
               </div>
-              <div className="w-2/3">
+              <div className="w-full md:w-2/3">
                 <div className="flex items-center gap-2 relative">
                   <div className="relative">
                     <div className="w-3 h-3 bg-yellow-400 absolute -bottom-0"></div>
@@ -188,11 +188,11 @@ A green and beautiful city park, suitable for taking a leisurely walk or enjoyin
                 </a>
               </div>
             </div>
-            <div className="w-full flex items-center gap-6 mt-4">
-              <div className="w-1/3 h-60">
+            <div className="w-full flex flex-col md:flex-row items-center gap-6 mt-4">
+              <div className="w-full md:w-1/3 h-60">
                 <Image className="rounded-br-3xl w-full h-60 bg-cover" src={Destination7} alt='mall ambassador' />
               </div>
-              <div className="w-2/3">
+              <div className="w-full md:w-2/3">
                 <div className="flex items-center gap-2 relative">
                   <div className="relative">
                     <div className="w-3 h-3 bg-yellow-400 absolute -bottom-0"></div>
@@ -209,11 +209,11 @@ The largest sports complex in Jakarta which is often used for sporting events an
                 </a>
               </div>
             </div>
-            <div className="w-full flex items-center gap-6 mt-4">
-              <div className="w-1/3 h-60">
+            <div className="w-full flex flex-col md:flex-row items-center gap-6 mt-4">
+              <div className="w-full md:w-1/3 h-60">
                 <Image className="rounded-br-3xl w-full h-60 bg-cover" src={Destination8} alt='mall ambassador' />
               </div>
-              <div className="w-2/3">
+              <div className="w-full md:w-2/3">
                 <div className="flex items-center gap-2 relative">
                   <div className="relative">
                     <div className="w-3 h-3 bg-yellow-400 absolute -bottom-0"></div>
@@ -230,11 +230,11 @@ This museum holds a rich collection of Indonesian history and culture, suitable 
                 </a>
               </div>
             </div>
-            <div className="w-full flex items-center gap-6 mt-4">
-              <div className="w-1/3 h-60">
+            <div className="w-full flex flex-col md:flex-row items-center gap-6 mt-4">
+              <div className="w-full md:w-1/3 h-60">
                 <Image className="rounded-br-3xl w-full h-60 bg-cover" src={Destination9} alt='mall ambassador' />
               </div>
-              <div className="w-2/3">
+              <div className="w-full md:w-2/3">
                 <div className="flex items-center gap-2 relative">
                   <div className="relative">
                     <div className="w-3 h-3 bg-yellow-400 absolute -bottom-0"></div>
@@ -251,11 +251,11 @@ An icon of the city of Jakarta that offers beautiful views from the top and vari
                 </a>
               </div>
             </div>
-            <div className="w-full flex items-center gap-6 mt-4">
-              <div className="w-1/3 h-60">
+            <div className="w-full flex flex-col md:flex-row items-center gap-6 mt-4">
+              <div className="w-full md:w-1/3 h-60">
                 <Image className="rounded-br-3xl w-full h-60 bg-cover" src={Destination10} alt='mall ambassador' />
               </div>
-              <div className="w-2/3">
+              <div className="w-full md:w-2/3">
                 <div className="flex items-center gap-2 relative">
                   <div className="relative">
                     <div className="w-3 h-3 bg-yellow-400 absolute -bottom-0"></div>

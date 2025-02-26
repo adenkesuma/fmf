@@ -5,7 +5,7 @@ export default function OrganizingCommitee() {
   return (
     <div className="h-full">
       <BannerTitle message="Organizing Committee" /> 
-      <div className="mx-auto container px-20 py-10 min-h-screen">
+      <div className="mx-auto container px-6 md:px-20 py-10 min-h-screen">
         <h2 className="font-medium text-2xl mb-2 text-primary-color">Organizing Committee</h2>
         <div className="flex flex-col border-t-4 border-primary-color">
           {organizingCommittee.map((commitee, i) => (

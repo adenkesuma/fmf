@@ -4,7 +4,7 @@ export default function InvitedSpeakers() {
   return (
     <div className="h-full">
       <BannerTitle message="Transportation" /> 
-      <div className="mx-auto container px-20 py-10 min-h-screen">
+      <div className="mx-auto container px-6 md:px-20 py-10 min-h-screen">
         
        <div className="mt-10">
           <div className="mb-4 bg-primary-color py-2 px-3 rounded-br-2xl w-full md:w-1/2">

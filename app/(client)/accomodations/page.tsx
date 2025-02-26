@@ -9,8 +9,8 @@ const MapsNoSSR = dynamic(() => import("@/components/maps"), { ssr: false });
 export default function InvitedSpeakers() {
   return (
     <div className="h-full">
-      <BannerTitle message="Akomodation" />
-      <div className="mx-auto container px-20 py-10 min-h-screen">
+      <BannerTitle message="Accomodation" />
+      <div className="mx-auto container px-6 md:px-20 py-10 min-h-screen">
         <h2 className="font-medium text-2xl mb-2 text-primary-color">
           Accommodation Options Near the Conference Location
         </h2>

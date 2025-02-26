@@ -10,12 +10,12 @@ export default function WelcomeMessage() {
       <div className="mx-auto container px-4 lg:px-20 py-6 min-h-screen">
         <div>
           <div className="flex items-center mb-4">
-            <div className="w-28 z-50 h-28 md:w-40 md:h-40 rounded-full flex items-center justify-center border-8 border-yellow-400">
+            <div className="shrink-0 w-28 z-50 h-28 md:w-40 md:h-40 rounded-full flex items-center justify-center border-8 border-yellow-400">
               <Image src={LeaderPerhimpunan} alt="leader FMF" className="rounded-full w-full h-full object-cover object-top" />
             </div>
-            <div className="flex -ml-3 flex-col bg-primary-color text-white px-8 py-3 rounded-r-full" >
+            <div className="flex -ml-5 flex-col bg-primary-color text-white px-8 py-3 rounded-r-full" >
               <h3 className="font-medium text-sm md:text-base">Dr. dr. Isti Ilmiati Fujiati, MSc.CM-FM, M.Pd.Ked, Sp. KKLP, Subsp. COPC</h3>
-              <p className="text-sm">Chair of Indonesia Association of Family Physicians</p>
+              <p className="text-sm hidden md:block">Chair of Indonesia Association of Family Physicians</p>
             </div>
           </div>
 
@@ -47,12 +47,12 @@ export default function WelcomeMessage() {
         </div>
         <div className="border-t mt-12 pt-8">
           <div className="flex items-center mb-4">
-            <div className="w-28 z-50 h-28 md:w-40 md:h-40 rounded-full flex items-center justify-center border-8 border-yellow-400">
+            <div className="shrink-0 w-28 z-50 h-28 md:w-40 md:h-40 rounded-full flex items-center justify-center border-8 border-yellow-400">
               <Image src={LeaderPanitia} alt="leader FMF" className="rounded-full w-full h-full object-cover object-top" />
             </div>
-            <div className="flex -ml-3 flex-col bg-primary-color text-white px-8 py-3 rounded-r-full" >
+            <div className="flex -ml-5 flex-col bg-primary-color text-white px-8 py-3 rounded-r-full" >
               <h3 className="font-medium text-sm md:text-base">dr. Novana Perdana Putri, Sp.KKLP</h3>
-              <p className="text-sm">Chair, Organizing Committee Family Medicine Forum 2025</p>
+              <p className="text-sm hidden md:block">Chair, Organizing Committee Family Medicine Forum 2025</p>
             </div>
           </div>
           <h2 className="text-lg md:text-2xl font-medium text-primary-color">
