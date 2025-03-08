@@ -5,6 +5,15 @@ import Link from "next/link";
 import CountdownCard from "./count-down-card";
 import BannerImage from '@/public/images/banner.png';
 import BannerImageMobile from "@/public/images/banner-mobile.png";
+import {
+  AlertDialog,
+  AlertDialogCancel,
+  AlertDialogContent,
+  AlertDialogFooter,
+  AlertDialogHeader,
+  AlertDialogTitle,
+  AlertDialogTrigger,
+} from "@/components/ui/alert-dialog"
 
 const Banner = () => {
    return (
@@ -17,8 +26,49 @@ const Banner = () => {
           <div className="mt-2 flex flex-col gap-2">
             <Link href="https://bit.ly/Reg-Family-MedicineForum2025" className="rounded-xl p-4 md:p-6 text-white text-xs md:text-sm font-semibold bg-primary-color w-full text-center hover:bg-blue-800 flex items-center justify-center">Registration</Link>
             <div className="flex flex-row gap-2">
-              <Link href="#" className="rounded-xl p-4 md:p-6 text-white text-xs md:text-sm font-semibold bg-primary-color w-full text-center hover:bg-blue-800 flex items-center justify-center">Abstract Submission</Link>
-              <Link href="#" className="rounded-xl p-4 md:p-6 text-white text-xs md:text-sm font-semibold bg-primary-color w-full text-center hover:bg-blue-800 flex items-center justify-center">Awarding</Link>
+              <div className="w-1/2">
+                <AlertDialog>
+                  <AlertDialogTrigger>
+                    <div className="rounded-xl p-4 md:p-6 text-white text-xs md:text-sm font-semibold bg-primary-color w-full text-center hover:bg-blue-800 flex items-center justify-center">Abstract Submission</div>
+                  </AlertDialogTrigger>
+                  <AlertDialogContent>
+                    <AlertDialogHeader>
+                      <AlertDialogTitle>Abstract Submission</AlertDialogTitle>
+                      <Link href="https://bit.ly/Submission-abstract-PDKI-FamilyMedicineForum-2025" className="flex items-center justify-between gap-2 text-white bg-primary-color text-sm font-normal w-full py-2 px-3 rounded-xl">
+                        <span>
+                          Abstract
+                        </span>
+                        <svg className="size-5" data-slot="icon" fill="none" strokeWidth="1.5" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                          <path strokeLinecap="round" strokeLinejoin="round" d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25"></path>
+                        </svg>
+                      </Link>
+                      <Link href="https://bit.ly/Submit-Lomba-Videografi-FMF-KonasPDKI2025" className="flex items-center justify-between gap-2 text-white bg-primary-color text-sm font-normal w-full py-2 px-3 rounded-xl">
+                        <span>
+                          Short Video Competition
+                        </span>
+                        <svg className="size-5" data-slot="icon" fill="none" strokeWidth="1.5" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                          <path strokeLinecap="round" strokeLinejoin="round" d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25"></path>
+                        </svg>
+                      </Link>
+                      <Link href="https://bit.ly/Submit-Lomba-Fotografi-FMF-KonasPDKI2025" className="flex items-center justify-between gap-2 text-white bg-primary-color text-sm font-normal w-full py-2 px-3 rounded-xl">
+                        <span>
+                          Photography Competition
+                        </span>
+                        <svg className="size-5" data-slot="icon" fill="none" strokeWidth="1.5" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                          <path strokeLinecap="round" strokeLinejoin="round" d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25"></path>
+                        </svg>
+                      </Link>
+                    </AlertDialogHeader>
+
+                    <AlertDialogFooter>
+                      <AlertDialogCancel className="rounded-xl py-2">
+                        Back
+                      </AlertDialogCancel>
+                    </AlertDialogFooter>
+                  </AlertDialogContent>
+                </AlertDialog>
+              </div>
+              <Link href="#" className="rounded-xl p-4 md:p-6 text-white text-xs md:text-sm font-semibold bg-primary-color w-1/2 text-center hover:bg-blue-800 flex items-center justify-center">Awarding</Link>
             </div>
           </div>
         </div>  
