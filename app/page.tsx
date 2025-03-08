@@ -19,7 +19,7 @@ export default function Home() {
             <h2 className="font-medium text-2xl text-primary-color text-center md:text-left">Important Date</h2>
             <div className="w-full grid grid-cols-1 md:grid-cols-2 mt-2 gap-4">
               <div className="w-full flex items-center justify-center flex-col border border-primary-color rounded-xl p-7">
-                <div className="flex items-center justify-center bgi-yellow-400 w-24 h-24 rounded-full">
+                <div className="flex items-center justify-center bg-yellow-400 w-24 h-24 rounded-full">
                   <svg className="size-16 text-primary-color" data-slot="icon" fill="none" strokeWidth="1.5" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
                     <path strokeLinecap="round" strokeLinejoin="round" d="M12 6v6h4.5m4.5 0a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z"></path>
                   </svg>

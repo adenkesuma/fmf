@@ -1,63 +1,92 @@
 import BannerTitle from "@/components/banner-title"
 import Image from "next/image"
-import BannerSponsor from "@/public/images/img_sponsor.png";
+import BannerSponsor from "@/public/images/exhibit.png";
 
 export default function Sponsorship() {
   return (
     <div className="h-full">
       <BannerTitle message="Sponsorship" /> 
       <div className="mx-auto container px-20 py-10 min-h-screen">
-        <h2 className="font-medium text-2xl mb-2 text-primary-color">About FMF</h2>
+        <h2 className="font-medium text-2xl mb-2 text-primary-color">Contribute to the Success of FMF PDKI 2025 as a Sponsor</h2>
         <div className="bg-blue-500/10 mb-8 p-4 rounded-xl">
           <p className="text-sm">
-            FMF adalah organisasi yang bergerak di bidang pendidikan dan kedokteran.
+            Our sincere appreciation goes to the following companies and institutions for their support
           </p>
         </div>
 
-        <h2 className="font-medium text-2xl mb-2 text-primary-color">Why You Should Sponsor FMF June 2025</h2>
+        <h2 className="font-medium text-2xl mb-2 text-primary-color">Sponsorship Contact Information:</h2>
+
         <ul className="flex flex-col gap-2">
           <li className="flex gap-3">
             <span>•</span>
             <p className="text-sm text-gray-600">
-              <span className="text-primary-color font-medium">Global Exposure</span> : FMF 2025 menghadirkan peserta dari berbagai negara, menjadikannya platform sempurna untuk memperluas jangkauan merek Anda di pasar global. Sponsor akan mendapatkan eksposur internasional melalui berbagai saluran, termasuk media sosial, publikasi, dan siaran langsung.
+              <span className="text-primary-color font-medium">
+                +62 811-2024-528 (Maula)
+              </span> 
             </p>
           </li>
           <li className="flex gap-3">
             <span>•</span>
             <p className="text-sm text-gray-600">
-              <span className="text-primary-color font-medium">Networking Opportunities</span> : Sebagai sponsor, Anda memiliki kesempatan eksklusif untuk bertemu dan berinteraksi dengan para pemimpin industri, pengusaha, dan inovator. Jalin hubungan bisnis yang berharga dalam suasana profesional dan produktif.
-            </p>
-          </li>
-          <li className="flex gap-3">
-            <span>•</span>
-            <p className="text-sm text-gray-600"> 
-              <span className="text-primary-color font-medium">Brand Visibility</span> : Tingkatkan kesadaran merek Anda dengan menampilkan logo dan nama perusahaan di semua materi promosi acara, termasuk banner, situs web, dan media publikasi. Jadikan merek Anda sebagai pusat perhatian di antara audiens yang relevan.
+              <span className="text-primary-color font-medium">
+                +62 811-142-603 (Dr. dr. Tan Suyono, Sp.KKLP)
+              </span> 
             </p>
           </li>
           <li className="flex gap-3">
             <span>•</span>
             <p className="text-sm text-gray-600">
-              <span className="text-primary-color font-medium">Customized Engagement</span> : Dapatkan peluang untuk menciptakan pengalaman unik dengan audiens melalui inisiatif yang disesuaikan, seperti presentasi, booth interaktif, atau aktivitas sponsor yang selaras dengan nilai merek Anda. Tingkatkan keterlibatan langsung dengan peserta untuk meninggalkan kesan mendalam.
+              <span className="text-primary-color font-medium">
+                +62 853-6416-6069 (dr. Yetti Rohayati, Sp.KKLP)
+              </span> 
+            </p>
+          </li>
+          <li className="flex gap-3">
+            <span>•</span>
+            <p className="text-sm text-gray-600">
+              <span className="text-primary-color font-medium">
+                +62 813-2282-9893 ( dr. Susi Oktowaty,MKM, SpKKLP, Subsp, FOMC)
+              </span> 
             </p>
           </li>
         </ul>
 
         <h2 className="font-medium mt-8 text-2xl mb-2 text-primary-color">
-          Explore Sponsorship Opportunities
+          Exhibit at FMF PDKI 2025
         </h2>
-        <div className="flex gap-6 items-center">
-          <div className="w-60 h-40 rounded-xl">
-            <Image src={BannerSponsor} alt="banner sponsor" className="rounded-xl w-full h-full object-cover" />
-          </div>
-          <div className="w-fit">
-            <p className="text-sm">
-              Ambil peluang ini untuk menjadi bagian dari keluarga kedokteran. 
-              Untuk informasi lebih detail tentang pilihan sponsorship, silahkan hubungi sales manager dari sponsorship untuk FMF June 2025. 
-            </p>
-            <span className="mt-4 block font-medium">Qori Hasibuan Napitupulu | Sponsorship & Exhibits Sales Manager</span>
-            <span className="text-xs">Email: qori@gmail.com</span>
-            <span className="text-xs block">No: +62 8323 4213 4322</span>
-          </div>
+        <div className="w-full h-full rounded-xl border-2">
+          <Image src={BannerSponsor} alt="banner sponsor" className="rounded-xl w-full h-full object-cover" />
+        </div>
+        <h2 className="font-medium mt-8 text-xl mb-2 text-primary-color">How can sponsoring this event support your business objectives? or The benefits of sponsoring</h2>
+        <div className="flex flex-col">
+          <h4 className="text-lg text-medium">Extensive Brand Exposure</h4>
+          <p className="text-sm">
+            Sponsoring FMF 2025 ensures high visibility for your company by featuring your logo on official event materials, websites, banners, and promotional content. This allows you to reach a wide audience of healthcare professionals, policymakers, and industry leaders while reinforcing your brand’s presence in the medical community.
+          </p>
+        </div>
+        <div className="flex flex-col mt-2">
+          <h4 className="text-lg text-medium">Direct Engagement with Medical Professionals</h4>
+          <p className="text-sm">
+            This sponsorship provides a unique opportunity to connect directly with family medicine specialists, primary care providers, and healthcare stakeholders through symposiums, workshops, and exhibitions, enabling your company to showcase its products, services, and innovations to a highly targeted and influential audience.
+          </p>
+        </div>
+        <div className="flex flex-col mt-2">
+          <h4 className="text-lg text-medium">Exclusive Marketing Opportunities</h4>
+          <p className="text-sm">
+            By becoming a sponsor, your company gains access to premium promotional benefits, such as the ability to display advertisements during scientific sessions, feature branding in key event spaces, and even deliver a dedicated presentation during the prestigious Gala Dinner, Ensuring maximum exposure and engagement with potential clients and partners.
+          </p>
+        </div>
+        <div className="flex flex-col mt-2">
+          <h4 className="text-lg text-medium">Corporate Social Responsibility & Industry Contribution</h4>
+          <p className="text-sm">
+            Supporting this event demonstrates your company’s commitment to advancing healthcare in Indonesia, as it plays a crucial role in promoting medical innovation, improving primary care services, and contributing to discussions on integrated healthcare solutions, chronic disease management, and sustainable medical practices.
+          </p>
+        </div>
+        <div className="flex flex-col mt-2">
+          <h4 className="text-lg text-medium">Networking & Business Development</h4>
+          <p className="text-sm">
+            As a sponsor, you will have the chance to establish valuable connections with key decision-makers, policymakers, healthcare professionals, and potential business partners, while also staying ahead of industry trends and gaining insights into the latest medical advancements that can help shape the future of healthcare.
+          </p>
         </div>
       </div>
     </div>

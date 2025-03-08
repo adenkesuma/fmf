@@ -33,8 +33,8 @@ export default function Navbar() {
               <Link href={'/organizing-commitee'} className="hover:bg-white/20 p-2 rounded-lg text-sm font-medium">Organizing Committee</Link>
               <Link href={'/program-at-glance'} className="hover:bg-white/20 p-2 rounded-lg text-sm font-medium">Progra at a Glance</Link> 
               <Link href={'#'} className="hover:bg-white/20 p-2 rounded-lg text-sm font-medium">Invited Speakers</Link>
-              <Link href={'#'} className="hover:bg-white/20 p-2 rounded-lg text-sm font-medium">Registration</Link>
-              <Link href={'#'} className="hover:bg-white/20 p-2 rounded-lg text-sm font-medium">Sponsorship</Link>
+              <Link href={'https://bit.ly/Reg-Family-MedicineForum2025'} className="hover:bg-white/20 p-2 rounded-lg text-sm font-medium">Registration</Link>
+              <Link href={'/sponsorship'} className="hover:bg-white/20 p-2 rounded-lg text-sm font-medium">Sponsorship</Link>
               <Link href={'/accomodations'} className="hover:bg-white/20 p-2 rounded-lg text-sm font-medium">Accomodation</Link>
               <Link href={'/venue'} className="hover:bg-white/20 p-2 rounded-lg text-sm font-medium">Venue</Link>
               <Link href={'/jakarta-indonesia'} className="hover:bg-white/20 p-2 rounded-lg text-sm font-medium">Jakarta, Indonesia</Link>
@@ -85,8 +85,8 @@ export default function Navbar() {
               </DropdownMenuItem>
             </DropdownMenuContent>
           </DropdownMenu>
-          <Link href={'#'} className="text-black text-sm font-medium py-2">Registration</Link>
-          <Link href={'#'} className="text-black text-sm font-medium py-2">Sponsorship</Link>
+          <Link href={'https://bit.ly/Reg-Family-MedicineForum2025'} className="text-black text-sm font-medium py-2">Registration</Link>
+          <Link href={'/sponsorship'} className="text-black text-sm font-medium py-2">Sponsorship</Link>
           <Link href={'/accomodations'} className="text-black text-sm font-medium">Acomodation</Link>
           <DropdownMenu>
             <DropdownMenuTrigger className="outline-none border-none">
