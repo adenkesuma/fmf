@@ -34,7 +34,7 @@ const Banner = () => {
                   <AlertDialogContent>
                     <AlertDialogHeader>
                       <AlertDialogTitle>Abstract Submission</AlertDialogTitle>
-                      <Link href="https://bit.ly/Submission-abstract-PDKI-FamilyMedicineForum-2025" className="flex items-center justify-between gap-2 text-white bg-primary-color text-sm font-normal w-full py-2 px-3 rounded-xl">
+                      <Link href="/abstract" className="flex items-center justify-between gap-2 text-white bg-primary-color text-sm font-normal w-full py-2 px-3 rounded-xl">
                         <span>
                           Abstract
                         </span>
@@ -42,7 +42,7 @@ const Banner = () => {
                           <path strokeLinecap="round" strokeLinejoin="round" d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25"></path>
                         </svg>
                       </Link>
-                      <Link href="https://bit.ly/Submit-Lomba-Videografi-FMF-KonasPDKI2025" className="flex items-center justify-between gap-2 text-white bg-primary-color text-sm font-normal w-full py-2 px-3 rounded-xl">
+                      <Link href="/short-video-competition" className="flex items-center justify-between gap-2 text-white bg-primary-color text-sm font-normal w-full py-2 px-3 rounded-xl">
                         <span>
                           Short Video Competition
                         </span>
@@ -50,7 +50,7 @@ const Banner = () => {
                           <path strokeLinecap="round" strokeLinejoin="round" d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25"></path>
                         </svg>
                       </Link>
-                      <Link href="https://bit.ly/Submit-Lomba-Fotografi-FMF-KonasPDKI2025" className="flex items-center justify-between gap-2 text-white bg-primary-color text-sm font-normal w-full py-2 px-3 rounded-xl">
+                      <Link href="/photography-competition" className="flex items-center justify-between gap-2 text-white bg-primary-color text-sm font-normal w-full py-2 px-3 rounded-xl">
                         <span>
                           Photography Competition
                         </span>
