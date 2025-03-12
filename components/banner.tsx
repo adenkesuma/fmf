@@ -24,7 +24,7 @@ const Banner = () => {
         <div className="bg-white p-2 md:p-4 rounded-2xl">
           <CountdownCard eventDate="2025-06-26T00:00:00Z"/>
           <div className="mt-2 flex flex-col gap-2">
-            <Link href="https://bit.ly/Reg-Family-MedicineForum2025" className="rounded-xl p-4 md:p-6 text-white text-xs md:text-sm font-semibold bg-primary-color w-full text-center hover:bg-blue-800 flex items-center justify-center">Registration</Link>
+            <Link href="/registration" className="rounded-xl p-4 md:p-6 text-white text-xs md:text-sm font-semibold bg-primary-color w-full text-center hover:bg-blue-800 flex items-center justify-center">Registration</Link>
             <div className="flex flex-row gap-2">
               <div className="w-1/2">
                 <AlertDialog>
