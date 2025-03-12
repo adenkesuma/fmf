@@ -85,7 +85,7 @@ export default function Navbar() {
               </DropdownMenuItem>
             </DropdownMenuContent>
           </DropdownMenu>
-          <Link href={'https://bit.ly/Reg-Family-MedicineForum2025'} className="text-black text-sm font-medium py-2">Registration</Link>
+          <Link href={'/registration'} className="text-black text-sm font-medium py-2">Registration</Link>
           <Link href={'/sponsorship'} className="text-black text-sm font-medium py-2">Sponsorship</Link>
           <Link href={'/accomodations'} className="text-black text-sm font-medium">Acomodation</Link>
           <DropdownMenu>

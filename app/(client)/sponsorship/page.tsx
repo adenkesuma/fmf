@@ -6,7 +6,7 @@ export default function Sponsorship() {
   return (
     <div className="h-full">
       <BannerTitle message="Sponsorship" /> 
-      <div className="mx-auto container px-20 py-10 min-h-screen">
+      <div className="mx-auto container px-6 lg:px-20 py-10 min-h-screen">
         <h2 className="font-medium text-2xl mb-2 text-primary-color">Contribute to the Success of FMF PDKI 2025 as a Sponsor</h2>
         <div className="bg-blue-500/10 mb-8 p-4 rounded-xl">
           <p className="text-sm">
