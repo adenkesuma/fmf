@@ -1,14 +1,19 @@
 import BannerTitle from "@/components/banner-title";
+import Link from "next/link";
 
 export default function Abstract() {
   return (
     <div className="h-full">
       <BannerTitle message="Abstract" />
       <div className="mx-auto container px-6 md:px-20 py-10 min-h-screen">
-        <h2 className="font-medium text-2xl mb-2 text-primary-color">
+        <h2 className="font-medium text-center text-2xl mb-2 text-primary-color">
           GENERAL TERMS OF THE COMPETITION
         </h2>
-          <div className="">
+
+        <div className="w-full flex justify-center">
+          <Link className="py-3 mt-3 block w-fit px-10 text-white rounded-xl bg-primary-color text-sm font-semibold" href="https://bit.ly/Submission-abstract-PDKI-FamilyMedicineForum-202">Go to Register</Link>
+        </div>
+          <div className="mt-8">
             <h2 className="text-xl font-semibold mt-4">I. ADMINISTRATIVE REQUIREMENTS</h2>
             <ul className="list-disc pl-5 text-sm">
                 <li>Participants must be medical students, general practitioners, residents, or specialists.</li>
