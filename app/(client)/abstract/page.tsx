@@ -24,8 +24,8 @@ export default function Abstract() {
                 <li>Themes for both categories:
                     <ul className="list-disc pl-5">
                         <li>Children and Adolescent</li>
-                        <li>Men's Health</li>
-                        <li>Reproduction and Women's Health</li>
+                        <li>{"Men's"} Health</li>
+                        <li>Reproduction and {"Women's"} Health</li>
                         <li>Elderly Health</li>
                         <li>Infectious Disease</li>
                         <li>NCDs</li>
@@ -44,7 +44,7 @@ export default function Abstract() {
                 <li>Any violation of the originality rule will result in disqualification.</li>
                 <li>Submitted abstracts become the property of the committee and will not be returned.</li>
                 <li>The committee reserves the right to publish abstracts and poster files with proper attribution.</li>
-                <li>The judges' decisions are final and binding.</li>
+                <li>The judges decisions are final and binding.</li>
                 <li>All participants must follow the established competition rules.</li>
             </ul>
 
@@ -52,7 +52,7 @@ export default function Abstract() {
             <ul className="list-disc pl-5 text-sm">
                 <li>Abstracts must be created using Microsoft Word, A4 paper size, with a top margin of 5 cm and other margins of 3 cm.</li>
                 <li>Title: Times New Roman, size 14, bold, centered.</li>
-                <li>Authors and institutions: Times New Roman, size 12, centered. The main author's name should be underlined.</li>
+                <li>Authors and institutions: Times New Roman, size 12, centered. The main {"author's"} name should be underlined.</li>
                 <li>Abstract content: Times New Roman, size 12, justified, single-spaced. Foreign terms should be italicized.</li>
                 <li>Maximum 250 words.</li>
                 <li>Abstract structure:
@@ -63,7 +63,7 @@ export default function Abstract() {
                 </li>
                 <li>Abstracts can be submitted in English.</li>
                 <li>Soft copies must be uploaded by March 31, 2025, at 23:59 WIB via <a href="https://bit.ly/Submission-abstract-PDKI-FamilyMedicineForum-2025" className="text-blue-500 underline">this link</a>.</li>
-                <li>File naming format: "Research Abstract / Case Report Abstract - Participant Name - Institution" (e.g., "Research Abstract - Siti Aisyah - Universitas Diponegoro").</li>
+                <li>File naming format: Research Abstract / Case Report Abstract - Participant Name - Institution (e.g., Research Abstract - Siti Aisyah - Universitas Diponegoro).</li>
             </ul>
 
             <h2 className="text-xl font-semibold mt-4">VII. CONTACT PERSON</h2>
