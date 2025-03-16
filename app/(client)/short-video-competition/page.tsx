@@ -11,7 +11,10 @@ export default function ShortVideoCompetition() {
         </h2>
         <div className="">
 
-          <p className="text-sm font-semibold">Theme: "The Role and Real Actions of Primary Care Family Physicians in Indonesia's Health Transformation"</p>
+          <p className="text-sm font-semibold">Theme: The Role and Real Actions of Primary Care Family Physicians in {"Indonesia's"} Health Transformation</p>
+          <div className="w-full flex justify-center">
+            <Link className="py-2 px-6 bg-primary-color rounded-xl text-white font-semibold mt-6 w-fit block" href="https://bit.ly/Submit-Lomba-Videografi-FMF-KonasPDKI2025">Go to Submit</Link>
+          </div>
 
           <h2 className="text-xl font-semibold mt-4">Terms & Conditions</h2>
           <ul className="list-disc pl-5 text-sm">
@@ -27,7 +30,7 @@ export default function ShortVideoCompetition() {
               <li>Participants must fill out a complete registration form.</li>
               <li>Participants must retain the original HD/Full HD master video.</li>
               <li>Deadline for submission: April 30, 2025.</li>
-              <li>Videos will be uploaded on PDKI's social media and can be shared to gain "likes." The most liked video wins the favorite category.</li>
+              <li>Videos will be uploaded on {"PDKI's"} social media and can be shared to gain likes. The most liked video wins the favorite category.</li>
               <li>The committee reserves the right to broadcast videos for educational purposes.</li>
               <li>Patient consent must be provided if patients appear, or their identity must be anonymized.</li>
           </ul>
@@ -48,7 +51,7 @@ export default function ShortVideoCompetition() {
               <li>Video quality, sound, storyline, and language clarity.</li>
               <li>Subtitles for non-Indonesian languages.</li>
               <li>Professionalism and empathy towards patients/community.</li>
-              <li>Number of "likes" on PDKI's social media.</li>
+              <li>Number of likes on {"PDKI's"} social media.</li>
               <li>Validity and reliability of information.</li>
           </ul>
 
@@ -61,7 +64,6 @@ export default function ShortVideoCompetition() {
           <h2 className="text-xl font-semibold mt-4">Contact Persons</h2>
           <p className="text-sm">Qori (0812-6033-7148) / Arkan (0811-2024-128)</p>
         </div>
-        <Link className="py-2 px-6 bg-primary-color rounded-xl text-white font-semibold mt-6 w-fit block" href="https://bit.ly/Submit-Lomba-Videografi-FMF-KonasPDKI2025">Register Here</Link>
       </div>
     </div>
   )

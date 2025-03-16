@@ -11,6 +11,9 @@ export default function ShortVideoCompetition() {
         </h2>
         <div>
           <h2 className="text-lg font-semibold mb-2">Theme: “The Role of Indonesian Family Doctors in National Health Transformation”</h2>
+          <div className="w-full flex justify-center">
+            <Link className="py-2 px-6 bg-primary-color rounded-xl text-white font-semibold mt-6 w-fit block" href="https://bit.ly/Submit-Lomba-Fotografi-FMF-KonasPDKI2025">Go to Submit</Link>
+          </div>
 
           <h3 className="text-lg font-semibold mt-4">Terms and Conditions:</h3>
           <ul className="list-disc pl-6 text-sm">
@@ -21,7 +24,7 @@ export default function ShortVideoCompetition() {
               <li>One participant can be the main author for one photo and a team member for up to two others.</li>
               <li>A short narrative (50-100 words) must be included.</li>
               <li>Submission deadline: April 30, 2025.</li>
-              <li>Photos will be published on PDKI's social media, and participants may share links to gather "likes." The most liked photo will win the favorite category.</li>
+              <li>Photos will be published on {"PDKI's"} social media, and participants may share links to gather likes. The most liked photo will win the favorite category.</li>
               <li>If featuring patients/sensitive conditions, informed consent must be provided, or identities must be blurred.</li>
               <li>Must not contain elements of SARA, pornography, or potential conflicts.</li>
               <li>Criticism and policy suggestions must be conveyed in a respectful manner.</li>
@@ -46,7 +49,7 @@ export default function ShortVideoCompetition() {
               <li>Relevance of the photo to the theme and narrative.</li>
               <li>Message conveyed.</li>
               <li>Technical aspects of photography.</li>
-              <li>Number of "likes" (for favorite winner).</li>
+              <li>Number of likes (for favorite winner).</li>
           </ul>
 
           <h3 className="text-lg font-semibold mt-4">Organizer:</h3>
@@ -55,7 +58,6 @@ export default function ShortVideoCompetition() {
           <h3 className="text-lg font-semibold mt-4">Contact Person:</h3>
           <p className="text-sm">Qori (0812-6033-7148) / Arkan (0811-2024-128)</p>
         </div>
-        <Link className="py-2 px-6 bg-primary-color rounded-xl text-white font-semibold mt-6 w-fit block" href="https://bit.ly/Submit-Lomba-Fotografi-FMF-KonasPDKI2025">Register Here</Link>
       </div>
     </div>
   )
