@@ -19,9 +19,7 @@ export const metadata: Metadata = {
   title: "Family Medicine Forum",
   description: "A doctor organization",
   icons: {
-    icon: [
-      { url: '/images/logo.png', type: 'image/png' },
-    ]
+    icon: '/images/logo.png',
   }
 };
 
