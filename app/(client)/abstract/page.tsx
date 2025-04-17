@@ -19,7 +19,7 @@ export default function Abstract() {
                 <li>Participants must be medical students, general practitioners, residents, or specialists.</li>
                 <li>Participants can compete individually or as a team.</li>
                 <li>Participants may submit more than one work but can only be the team leader once.</li>
-                <li>Abstract submissions must be received by the committee no later than March 31, 2025, at 23:59 WIB.</li>
+                <li>Abstract submissions must be received by the committee no later than April 31, 2025, at 23:59 WIB.</li>
                 <li>Participants must attend the Family Medicine Forum 2025 symposium held on June 26-28, 2025.</li>
             </ul>
 
@@ -67,7 +67,7 @@ export default function Abstract() {
                     </ul>
                 </li>
                 <li>Abstracts can be submitted in English.</li>
-                <li>Soft copies must be uploaded by March 31, 2025, at 23:59 WIB via <a href="https://bit.ly/Submission-abstract-PDKI-FamilyMedicineForum-2025" className="text-blue-500 underline">this link</a>.</li>
+                <li>Soft copies must be uploaded by April 31, 2025, at 23:59 WIB via <a href="https://bit.ly/Submission-abstract-PDKI-FamilyMedicineForum-2025" className="text-blue-500 underline">this link</a>.</li>
                 <li>File naming format: Research Abstract / Case Report Abstract - Participant Name - Institution (e.g., Research Abstract - Siti Aisyah - Universitas Diponegoro).</li>
             </ul>
 
