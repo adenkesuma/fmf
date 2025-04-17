@@ -20,7 +20,7 @@ export const metadata: Metadata = {
   description: "A doctor organization",
   icons: {
     icon: [
-      { url: '/public/images/logo.png', type: 'image/png' },
+      { url: '/images/logo.png', type: 'image/png' },
     ]
   }
 };
