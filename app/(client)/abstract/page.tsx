@@ -11,7 +11,7 @@ export default function Abstract() {
         </h2>
 
         <div className="w-full flex justify-center">
-          <Link className="py-3 mt-3 block w-fit px-10 text-white rounded-xl bg-primary-color text-sm font-semibold" href="https://bit.ly/Submission-abstract-PDKI-FamilyMedicineForum-202">Go to Register</Link>
+          <Link className="py-3 mt-3 block w-fit px-10 text-white rounded-xl bg-primary-color text-sm font-semibold" href="https://docs.google.com/forms/d/e/1FAIpQLSfc07YAydlV0Skcr6Y--jWTPVALazmVk8i0IpR14-q6rxzAKA/viewform">Go to Register</Link>
         </div>
           <div className="mt-8">
             <h2 className="text-xl font-semibold mt-4">I. ADMINISTRATIVE REQUIREMENTS</h2>

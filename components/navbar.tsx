@@ -85,6 +85,33 @@ export default function Navbar() {
               </DropdownMenuItem>
             </DropdownMenuContent>
           </DropdownMenu>
+          <DropdownMenu>
+            <DropdownMenuTrigger className="outline-none border-none">
+              <div className="text-black shrink-0 text-sm font-medium py-2 flex items-center gap-1">
+                <span className="shrink-0 block">Abstract Submission</span>
+                <svg className="size-4 block shrink-0" data-slot="icon" fill="none" strokeWidth="1.5" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                  <path strokeLinecap="round" strokeLinejoin="round" d="m19.5 8.25-7.5 7.5-7.5-7.5"></path>
+                </svg>
+              </div>
+            </DropdownMenuTrigger>
+            <DropdownMenuContent className="bg-primary-color border-white/20 text-white">
+              <DropdownMenuItem>
+                <Link href="/abstract" className="text-sm font-medium">
+                  Abstract
+                </Link>
+              </DropdownMenuItem>
+              <DropdownMenuItem>
+                <Link href="/short-video-competition" className="text-sm font-medium">
+                  Short Video Competition
+                </Link>
+              </DropdownMenuItem>
+              <DropdownMenuItem>
+                <Link href="/photography-competition" className="text-sm font-medium">
+                  Photography Competition
+                </Link>
+              </DropdownMenuItem>
+            </DropdownMenuContent>
+          </DropdownMenu>
           <Link href={'/registration'} className="text-black text-sm font-medium py-2">Registration</Link>
           <Link href={'/sponsorship'} className="text-black text-sm font-medium py-2">Sponsorship</Link>
           <Link href={'/accomodations'} className="text-black text-sm font-medium">Accommodation</Link>
