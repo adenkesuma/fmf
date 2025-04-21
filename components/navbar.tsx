@@ -87,7 +87,7 @@ export default function Navbar() {
           </DropdownMenu>
           <Link href={'/registration'} className="text-black text-sm font-medium py-2">Registration</Link>
           <Link href={'/sponsorship'} className="text-black text-sm font-medium py-2">Sponsorship</Link>
-          <Link href={'/accomodations'} className="text-black text-sm font-medium">Acomodation</Link>
+          <Link href={'/accomodations'} className="text-black text-sm font-medium">Accommodation</Link>
           <DropdownMenu>
             <DropdownMenuTrigger className="outline-none border-none">
               <span className="text-black text-sm font-medium py-2 flex items-center gap-1">
