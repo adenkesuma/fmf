@@ -68,7 +68,7 @@ const Banner = () => {
                   </AlertDialogContent>
                 </AlertDialog>
               </div>
-              <Link href="#" className="rounded-xl p-4 md:p-6 text-white text-xs md:text-sm font-semibold bg-primary-color w-1/2 text-center hover:bg-blue-800 flex items-center justify-center">Awarding</Link>
+              <Link href="https://sites.google.com/view/pdkifmfawards" className="rounded-xl p-4 md:p-6 text-white text-xs md:text-sm font-semibold bg-primary-color w-1/2 text-center hover:bg-blue-800 flex items-center justify-center">Awarding</Link>
             </div>
           </div>
         </div>  
