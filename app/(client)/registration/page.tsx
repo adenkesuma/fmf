@@ -19,7 +19,7 @@ export default function Registration() {
         </p>
 
         <div className="w-full flex justify-center">
-          <Link className="py-3 mt-3 block w-fit px-10 text-white rounded-xl bg-primary-color text-sm font-semibold" href={'https://bit.ly/Reg-Family-MedicineForum2025'}>Go to Register</Link>
+          <Link className="py-3 mt-3 block w-fit px-10 text-white rounded-xl bg-primary-color text-sm font-semibold" href={'https://evorsine.clickicm.com/share/detail/family-medicine-forum-2025'}>Go to Register</Link>
         </div>
 
           <div className="w-full mt-8">
@@ -32,7 +32,7 @@ export default function Registration() {
                   </svg>
                 </div>
                 <h4 className="mt-2 font-medium text-base text-center">Abstract Acceptance Deadline</h4>
-                <p className="text-base text-center text-primary-color">31 April 2025</p>
+                <p className="text-base text-center text-primary-color">30 April 2025</p>
               </div>
               <div className="w-full flex items-center justify-center flex-col border border-primary-color rounded-xl p-3">
                 <div className="flex items-center justify-center bg-yellow-400 w-14 h-14 rounded-full">

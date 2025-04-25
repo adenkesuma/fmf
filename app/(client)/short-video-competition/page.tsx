@@ -13,7 +13,7 @@ export default function ShortVideoCompetition() {
 
           <p className="text-sm font-semibold">Theme: The Role and Real Actions of Primary Care Family Physicians in {"Indonesia's"} Health Transformation</p>
           <div className="w-full flex justify-center">
-            <Link className="py-2 px-6 bg-primary-color rounded-xl text-white font-semibold mt-6 w-fit block" href="https://bit.ly/Submit-Lomba-Videografi-FMF-KonasPDKI2025">Go to Submit</Link>
+            <Link className="py-2 px-6 bg-primary-color rounded-xl text-white font-semibold mt-6 w-fit block" href="https://docs.google.com/forms/d/e/1FAIpQLSdEh0mQD4jFNQqR1dK8A7ZIjfyeDv9ni0gjtsMCvZiFxfbl4Q/viewform">Go to Submit</Link>
           </div>
 
           <h2 className="text-xl font-semibold mt-4">Terms & Conditions</h2>

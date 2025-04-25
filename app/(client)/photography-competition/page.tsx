@@ -12,7 +12,7 @@ export default function ShortVideoCompetition() {
         <div>
           <h2 className="text-lg font-semibold mb-2">Theme: “The Role of Indonesian Family Doctors in National Health Transformation”</h2>
           <div className="w-full flex justify-center">
-            <Link className="py-2 px-6 bg-primary-color rounded-xl text-white font-semibold mt-6 w-fit block" href="https://bit.ly/Submit-Lomba-Fotografi-FMF-KonasPDKI2025">Go to Submit</Link>
+            <Link className="py-2 px-6 bg-primary-color rounded-xl text-white font-semibold mt-6 w-fit block" href="https://docs.google.com/forms/d/e/1FAIpQLSfslad1jMxlAKtPXcZ5Zi7ssyI9hD4dlXDrEA_XJbUL7i18ug/viewform">Go to Submit</Link>
           </div>
 
           <h3 className="text-lg font-semibold mt-4">Terms and Conditions:</h3>
