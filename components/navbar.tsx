@@ -43,6 +43,7 @@ export default function Navbar() {
                 Photography Competition
               </Link>
               <Link href={'/registration'} className="hover:bg-white/20 p-2 rounded-lg text-sm font-medium">Registration</Link>
+              <Link href={'/scientific-schedule'} className="hover:bg-white/20 p-2 rounded-lg text-sm font-medium">Scientific Schedule</Link>
               <Link href={'/sponsorship'} className="hover:bg-white/20 p-2 rounded-lg text-sm font-medium">Sponsorship</Link>
               <Link href={'/accomodations'} className="hover:bg-white/20 p-2 rounded-lg text-sm font-medium">Accomodation</Link>
               <Link href={'/venue'} className="hover:bg-white/20 p-2 rounded-lg text-sm font-medium">Venue</Link>
@@ -54,7 +55,7 @@ export default function Navbar() {
         </div>
       </div>
       <div className="bg-yellow-400">
-        <div className="container px-4 lg:px-20 mx-auto hidden lg:flex justify-center items-center gap-20">
+        <div className="container px-4 lg:px-20 mx-auto hidden lg:flex justify-center items-center gap-10">
           <DropdownMenu>
             <DropdownMenuTrigger className="shrink-0 outline-none border-none">
               <div className="text-black text-sm font-medium py-2 flex items-center gap-1">
@@ -121,6 +122,7 @@ export default function Navbar() {
               </DropdownMenuItem>
             </DropdownMenuContent>
           </DropdownMenu>
+          <Link href={'/scientific-schedule'} className="text-black text-sm font-medium py-2">Scientific Schedule</Link>
           <Link href={'/registration'} className="text-black text-sm font-medium py-2">Registration</Link>
           <Link href={'/sponsorship'} className="text-black text-sm font-medium py-2">Sponsorship</Link>
           <Link href={'/accomodations'} className="text-black text-sm font-medium">Accommodation</Link>
