@@ -659,7 +659,7 @@ export default function ShortVideoCompetition() {
                   <tr className="border-b py-2">
                     <td className="w-1/3 text-sm">13:30 - 13:50</td>
                     <td className="py-2">
-                      <div>SESSION 1</div>
+                      <span>SESSION 1</span>
                       <span className="text-sm">
                         Understanding scabies pathophysiology Diagnosis dan Epideiology
                       </span>
@@ -672,7 +672,7 @@ export default function ShortVideoCompetition() {
                   <tr className="border-b py-2">
                     <td className="w-1/3 text-sm">13:50 - 14:10</td>
                     <td className="py-2">
-                      <div>SESSION 2</div>
+                      <span>SESSION 2</span>
                       <span className="text-sm">
                         Family Medicine Approach to Scabies Management
                       </span>
@@ -684,7 +684,7 @@ export default function ShortVideoCompetition() {
                   <tr className="border-b py-2">
                     <td className="w-1/3 text-sm">14:10 - 14:30</td>
                     <td className="py-2">
-                      <div>SESSION 3</div>
+                      <span>SESSION 3</span>
                       <span className="text-sm">
                         Integrated Primary Care and Public Health Strategies For Scabies Eradication
                       </span>
@@ -696,7 +696,7 @@ export default function ShortVideoCompetition() {
                   <tr className="border-b py-2">
                     <td className="w-1/3 text-sm">14:30 - 15:00</td>
                     <td className="py-2">
-                      <div>PANNEL DISCUSSION</div>
+                      <span>PANNEL DISCUSSION</span>
                       <span className="text-sm">
                         Fasilitator:
                       </span>
@@ -752,7 +752,7 @@ export default function ShortVideoCompetition() {
               <div className="p-2 bg-yellow-400 text-primary-color flex flex-col gap-0 items-center">
                 <div className="font-bold">KLASTER USIA DEWASA AND LANDSIA</div>
                 <span className="text-sm text-center">
-                  Every Second Counts: Family Medicine and Community Empowerment in Stroke's Golden Period
+                  Every Second Counts: Family Medicine and Community Empowerment in {"Stroke's"} Golden Period
                 </span>
               </div>
               <table role="none">
@@ -764,7 +764,7 @@ export default function ShortVideoCompetition() {
                   <tr className="border-b py-2">
                     <td className="w-1/3 text-sm">13:30 - 13:50</td>
                     <td className="py-2">
-                      <div>SESSION 1</div>
+                      <span>SESSION 1</span>
                       <span className="text-sm">
                         Stroke in the Golden Period: Emergency Management and Neurological Interventionns
                       </span>
@@ -774,9 +774,9 @@ export default function ShortVideoCompetition() {
                   <tr className="border-b py-2">
                     <td className="w-1/3 text-sm">13:50 - 14:10</td>
                     <td className="py-2">
-                      <div>SESSION 2</div>
+                      <span>SESSION 2</span>
                       <span className="text-sm">
-                        Family Medicine's Role in Stroke Prevention and Post-Stroke Care: A Holistic APproach
+                        Family {"Medicine's"} Role in Stroke Prevention and Post-Stroke Care: A Holistic APproach
                       </span>
                       <span className="text-sm font-bold block">Dr. dr. Erlina Wijayanti, M.Kes., Sp.KKLP, Subsp.FOMC</span>
                     </td>
@@ -784,7 +784,7 @@ export default function ShortVideoCompetition() {
                   <tr className="border-b py-2">
                     <td className="w-1/3 text-sm">14:10 - 14:30</td>
                     <td className="py-2">
-                      <div>SESSION 3</div>
+                      <span>SESSION 3</span>
                       <span className="text-sm">
                         Integrated Care pathway for stroke: Strenghening the Primary care system
                       </span>
@@ -796,7 +796,7 @@ export default function ShortVideoCompetition() {
                   <tr className="border-b py-2">
                     <td className="w-1/3 text-sm">14:10 - 14:30</td>
                     <td className="py-2">
-                      <div>PANNEL DISCUSSION</div>
+                      <span>PANNEL DISCUSSION</span>
                       <span className="text-sm">
                         Fasilitator:
                       </span>
@@ -842,6 +842,73 @@ export default function ShortVideoCompetition() {
                 </tbody>
               </table>
             </div>
+          </div>
+
+          <div className="flex flex-col gap-4 mt-4">
+            <h3 className="text-lg text-center font-bold">PERMATA 6</h3>
+            <div className="bg-yellow-400 p-4">
+              <h2 className="text-xl font-semibold text-primary-color text-center">ORAL PRESENTATION</h2>
+            </div>
+            <table role="none">
+              <tbody>
+                <tr className="border-b">
+                  <td className="py-2 w-1/3 text-sm">07:00 - 08:00</td>
+                  <td className="py-2 text-sm">REGISTRATION</td>
+                </tr>
+                <tr className="border-b">
+                  <td className="py-2 w-1/3 text-sm">08:00 - 08:45</td>
+                  <td className="py-2 text-sm">OPENING CEREMONY</td>
+                </tr>
+                <tr className="border-b">
+                  <td className="py-2 w-1/3 text-sm">08:45 - 09:30</td>
+                  <td className="py-2 text-sm">
+                    <span className="block font-bold text-sm">Keynote Speech</span>
+                    <span className="block text-sm">From policy to practice: Family Medicine at the forefront of Primary Care Transformation</span>
+                    <span className="block text-sm font-bold">Ir. Budi Gunadi Sadikin, CHFC, CLU Menteri Kesehatan Republik Indonesia (TBA)</span>
+                  </td>
+                </tr>
+                <tr className="border-b">
+                  <td className="py-2 w-1/3 text-sm">09:30 - 10:00</td>
+                  <td className="py-2 text-sm">COFFEE BREAK</td>
+                </tr>
+                <tr className="border-b">
+                  <td className="py-2 w-1/3 text-sm">10:00 - 10:30</td>
+                  <td className="py-2 text-sm">
+                    <span className="block font-bold text-sm">Plenary 1</span>
+                    <span className="block text-sm">Beyond Treatment: How optimized Primary care can drive prevetion and cost efficiency</span>
+                    <span className="block text-sm font-bold">Prof. Dr. Ali Ghufron Mukti, M.Sc., Ph.D., AAK(TBA)</span>
+                  </td>
+                </tr>
+                <tr className="border-b">
+                  <td className="py-2 w-1/3 text-sm">10:30 - 11:00</td>
+                  <td className="py-2 text-sm">
+                    <span className="block font-bold text-sm">Plenary 2</span>
+                    <span className="block text-sm">Towards a Healthier Indonesia: Family Medicine Contribution to Healthcaer Transformation</span>
+                    <span className="block text-sm font-bold">Dr.dr.Isti ILmiati Fujiati, MSc.CM-FM, M.Pd.Ked., Sp.KKLP, Susp.COPC</span>
+                  </td>
+                </tr>
+                <tr className="border-b">
+                  <td className="py-2 w-1/3 text-sm">11:00 - 11:30</td>
+                  <td className="py-2 text-sm">
+                    <span className="block font-bold text-sm">Plenary 3</span>
+                    <span className="block text-sm">Transforming Healthcare Through Education: Enhancing family medicine specialist education for better healthcare</span>
+                    <span className="block text-sm font-bold">Dr.dr.Dhanasari Vidiawati, MSc.CM-FM, Sp.KKLP, Subsp.COPC</span>
+                  </td>
+                </tr>
+                <tr className="border-b">
+                  <td className="py-2 w-1/3 text-sm">11:30 - 12:00</td>
+                  <td className="py-2 text-sm">
+                    <span className="block font-bold text-sm">Plenary 4</span>
+                    <span className="block text-sm">Family medicine in action: Small steps, big impact</span>
+                    <span className="block text-sm font-bold">Prof. (HC), dr.Mariatul Fadilah, MARS, PhD, Sp.KKLP, Subsp. FOPC</span>
+                  </td>
+                </tr>
+                <tr>
+                  <td className="py-2 w-1/3 text-sm">12:00 - 13:00</td>
+                  <td className="text-sm py-2">ISHOMA</td>
+                </tr>
+              </tbody>
+            </table>
           </div>
         </div>
       </div>
