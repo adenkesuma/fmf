@@ -910,6 +910,146 @@ export default function ShortVideoCompetition() {
               </tbody>
             </table>
           </div>
+
+          <div className="overflow-x-auto">
+            <table className="min-w-full border border-gray-300 text-sm">
+              <thead className="bg-yellow-400">
+                <tr>
+                  <th className="border px-4 text-primary-color py-2 text-center">TIME</th>
+                  <th className="border px-4 text-primary-color py-2 text-center">DUA MUTIARA 1</th>
+                  <th className="border px-4 text-primary-color py-2 text-center">DUA MUTIARA 2</th>
+                  <th className="border px-4 text-primary-color py-2 text-center">DUA MUTIARA 3</th>
+                </tr>
+              </thead>
+              <tbody>
+                {/* Session 1 */}
+                <tr>
+                  <td className="border px-4 py-2 text-center">13.00 - 14.10</td>
+                  <td className="border px-4 py-2">
+                    <p className="font-semibold">Symposium 1:</p>
+                    Family Medicine in Maternal Health: A Lifelong Commitment to Women’s Well-being
+                  </td>
+                  <td className="border px-4 py-2">
+                    <p className="font-semibold">Symposium 2:</p>
+                    Building Healthier Generations: The Power of Family Medicine in Child and Adolescent Well-being
+                  </td>
+                  <td className="border px-4 py-2">
+                    <p className="font-semibold">Symposium 3:</p>
+                    Closing the Critical Gap: Family Medicine’s Key Role in Pre-Hospital Stroke Management
+                  </td>
+                </tr>
+
+                {/* Klaster Section */}
+                <tr className="bg-gray-50">
+                  <td className="border px-4 py-2 text-center font-bold">KLASTER</td>
+                  <td className="border px-4 py-2 font-bold">USIA DEWASA & LANSIA</td>
+                  <td className="border px-4 py-2 font-bold">KESEHATAN IBU</td>
+                  <td className="border px-4 py-2 font-bold">KESEHATAN ANAK & REMAJA</td>
+                </tr>
+
+                {/* Moderator Section */}
+                <tr>
+                  <td className="border px-4 py-2 text-center font-semibold">Moderator</td>
+                  <td className="border px-4 py-2">Dr. dr. Ninik Setya Hastuti, M.Farm., M.Biomed, Sp.KKLP</td>
+                  <td className="border px-4 py-2">Dr. dr. Aila Karyus, S.H.,M.Kes.,Sp.KKLP</td>
+                  <td className="border px-4 py-2">dr. Syarhan, M.M, Sp.KKLP</td>
+                </tr>
+
+                {/* Topics */}
+                <tr>
+                  <td className="border px-4 py-2 text-center">13.00 - 14.00</td>
+                  <td className="border px-4 py-2">
+                    Strengthening Maternal Health Through Primary Care: Policies and Strategies for Prevention<br />
+                    <span className="italic">Ministry of Health Representative</span> (Direktur Pelayanan Kesehatan Keluarga)
+                  </td>
+                  <td className="border px-4 py-2">
+                    National Policies and Strategies for Strengthening Preventive Child and Adolescent Healthcare<br />
+                    <span className="italic">Ministry of Health Representative</span> (Direktur Pelayanan Kesehatan Keluarga)
+                  </td>
+                  <td className="border px-4 py-2">
+                    National Strategies for Strengthening Pre-Hospital Stroke Care: Policy, Infrastructure, and Integration
+                  </td>
+                </tr>
+
+                <tr>
+                  <td className="border px-4 py-2 text-center">14.00 - 14.10</td>
+                  <td className="border px-4 py-2 text-center" colSpan={3}>DISCUSSION</td>
+                </tr>
+
+                <tr className="bg-gray-50">
+                  <td className="border px-4 py-2 text-center">14.10 - 14.30</td>
+                  <td className="border px-4 py-2 text-center" colSpan={3}>COFFEE BREAK</td>
+                </tr>
+
+                {/* Session 2 */}
+                <tr>
+                  <td className="border px-4 py-2 text-center">14.30 - 15.40</td>
+                  <td className="border px-4 py-2">
+                    <p className="font-semibold">Symposium 4:</p>
+                    Saving Lives, One Heart at a Time: The Role of Family Medicine in an Integrated Approach to Heart Health
+                  </td>
+                  <td className="border px-4 py-2">
+                    <p className="font-semibold">Symposium 5:</p>
+                    Integrated, Comprehensive, Lifesaving: Family Medicine in the Fight Against TB-HIV
+                  </td>
+                  <td className="border px-4 py-2">
+                    <p className="font-semibold">Symposium 6:</p>
+                    From Prevention to Palliative Care: Family Medicine’s Comprehensive Role in Breast Cancer Care
+                  </td>
+                </tr>
+
+                {/* Klaster Section */}
+                <tr className="bg-gray-50">
+                  <td className="border px-4 py-2 text-center font-bold">KLASTER</td>
+                  <td className="border px-4 py-2 font-bold">USIA DEWASA & LANSIA</td>
+                  <td className="border px-4 py-2 font-bold">PENANGGULANGAN PENYAKIT MENULAR</td>
+                  <td className="border px-4 py-2 font-bold">PENANGGULANGAN PENYAKIT TIDAK MENULAR</td>
+                </tr>
+
+                {/* Moderator Section */}
+                <tr>
+                  <td className="border px-4 py-2 text-center font-semibold">Moderator</td>
+                  <td className="border px-4 py-2">Dr. dr. Farida Rusnianah, M.Kes., Sp.KKLP, Subsp.FOMC</td>
+                  <td className="border px-4 py-2">dr. Junida Sinulingga, M.Kes., Sp.KKLP</td>
+                  <td className="border px-4 py-2">dr. Johan Mardiansyah, MKKK, Sp.KKLP</td>
+                </tr>
+
+                {/* Topics */}
+                <tr>
+                  <td className="border px-4 py-2 text-center">14.30 - 15.30</td>
+                  <td className="border px-4 py-2">
+                    National Strategies for Cardiovascular Disease Prevention: Strengthening Primary Care and Multisectoral Collaboration
+                    <br /><span className="italic">Ministry of Health Representative</span> (Direktur Penyakit Tidak Menular)
+                  </td>
+                  <td className="border px-4 py-2">
+                    National Strategies for TB-HIV Elimination: Strengthening Integration from Policy to Primary Care
+                    <br /><span className="italic">Ministry of Health Representative</span> (Direktur Penyakit Menular)
+                  </td>
+                  <td className="border px-4 py-2">
+                    Global Perspectives on Primary Care’s Role in Breast Cancer Prevention and Management
+                  </td>
+                </tr>
+
+                <tr>
+                  <td className="border px-4 py-2 text-center">15.30 - 15.40</td>
+                  <td className="border px-4 py-2 text-center" colSpan={3}>DISCUSSION</td>
+                </tr>
+
+                {/* Inaugurasi */}
+                <tr className="bg-gray-50">
+                  <td className="border px-4 py-2 text-center">19.00 - 22.30</td>
+                  <td className="border px-4 py-2 text-center" colSpan={3}>
+                    1. Inaugurasi Sp.KKLP (Program RKL)<br/>
+                    2. Awarding Night<br/>
+                    3. Song and Dance<br/>
+                    <p className="font-semibold mt-2">ICON Ca ASEAN</p>
+                    dr. Trevino Pakasi, MSc., Ph.D, Sp.KKLP, Subsp.FOMC
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+
         </div>
       </div>
     </div>
