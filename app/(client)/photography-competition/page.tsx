@@ -23,7 +23,7 @@ export default function ShortVideoCompetition() {
               <li>Should showcase the family medicine approach in primary care services.</li>
               <li>One participant can be the main author for one photo and a team member for up to two others.</li>
               <li>A short narrative (50-100 words) must be included.</li>
-              <li>Submission deadline: April 30, 2025.</li>
+              <li>Submission deadline: Juni 10, 2025.</li>
               <li>Photos will be published on {"PDKI's"} social media, and participants may share links to gather likes. The most liked photo will win the favorite category.</li>
               <li>If featuring patients/sensitive conditions, informed consent must be provided, or identities must be blurred.</li>
               <li>Must not contain elements of SARA, pornography, or potential conflicts.</li>

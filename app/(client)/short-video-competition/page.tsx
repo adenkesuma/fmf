@@ -29,7 +29,7 @@ export default function ShortVideoCompetition() {
               <li>Content must not include SARA elements, pornography, mysticism, violence, or commercial product promotions.</li>
               <li>Participants must fill out a complete registration form.</li>
               <li>Participants must retain the original HD/Full HD master video.</li>
-              <li>Deadline for submission: April 30, 2025.</li>
+              <li>Deadline for submission: Juni 10, 2025.</li>
               <li>Videos will be uploaded on {"PDKI's"} social media and can be shared to gain likes. The most liked video wins the favorite category.</li>
               <li>The committee reserves the right to broadcast videos for educational purposes.</li>
               <li>Patient consent must be provided if patients appear, or their identity must be anonymized.</li>

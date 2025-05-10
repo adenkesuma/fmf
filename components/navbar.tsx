@@ -31,7 +31,7 @@ export default function Navbar() {
               <Link href={'/welcome-message'} className="hover:bg-white/20 p-2 rounded-lg text-sm font-medium">Welcome Message</Link>
               <Link href={'/overview'} className="hover:bg-white/20 p-2 rounded-lg text-sm font-medium">Overview</Link>
               <Link href={'/organizing-commitee'} className="hover:bg-white/20 p-2 rounded-lg text-sm font-medium">Organizing Committee</Link>
-              <Link href={'/program-at-glance'} className="hover:bg-white/20 p-2 rounded-lg text-sm font-medium">Progra at a Glance</Link> 
+              <Link href={'/program-at-glance'} className="hover:bg-white/20 p-2 rounded-lg text-sm font-medium">Program at a Glance</Link> 
               <Link href={'#'} className="hover:bg-white/20 p-2 rounded-lg text-sm font-medium">Invited Speakers</Link>
               <Link href="/abstract" className="text-sm font-medium hover:bg-white/20 p-2 rounded-lg">
                 Abstract
