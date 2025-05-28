@@ -12,7 +12,7 @@ export default function ShortVideoCompetition() {
 
   const days = {
     1: {
-      date: "Kamis, 26 Juni 2025",
+      date: "Kamis, 26 Juni 2025 (specifically for PDKI administrators)",
       image: Days1
     },
     2: {
