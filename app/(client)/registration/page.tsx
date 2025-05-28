@@ -354,9 +354,6 @@ export default function Registration() {
           <li className="text-sm">
             4. Conference Material
           </li>
-          <li className="text-sm">
-            5. WiFi Access
-          </li>
         </ul>
         <h2 className="font-medium mt-8 text-2xl mb-2 text-primary-color">
           Registration Procedure
