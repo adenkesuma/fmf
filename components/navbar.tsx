@@ -7,6 +7,15 @@ import {
 } from "@/components/ui/dropdown-menu"
 import Image from "next/image";
 import Logo from "@/public/images/logo.png";
+import {
+  AlertDialog,
+  AlertDialogCancel,
+  AlertDialogContent,
+  AlertDialogFooter,
+  AlertDialogHeader,
+  AlertDialogTitle,
+  AlertDialogTrigger,
+} from "@/components/ui/alert-dialog"
 
 export default function Navbar() {
   return (
@@ -33,9 +42,27 @@ export default function Navbar() {
               <Link href={'/organizing-commitee'} className="hover:bg-white/20 p-2 rounded-lg text-sm font-medium">Organizing Committee</Link>
               <Link href={'/program-at-glance'} className="hover:bg-white/20 p-2 rounded-lg text-sm font-medium">Program at a Glance</Link> 
               <Link href={'#'} className="hover:bg-white/20 p-2 rounded-lg text-sm font-medium">Invited Speakers</Link>
-              <Link href="/abstract" className="text-sm font-medium hover:bg-white/20 p-2 rounded-lg">
-                Abstract
-              </Link>
+              <div className="text-sm font-medium hover:bg-white/20 p-2 rounded-lg">
+                <AlertDialog>
+                  <AlertDialogTrigger>
+                    <div>Abstract</div>
+                  </AlertDialogTrigger>
+                  <AlertDialogContent>
+                    <AlertDialogHeader>
+                      <AlertDialogTitle>Abstract</AlertDialogTitle>
+                      <span>
+                        Abstract submission is now closed. We appreciate your participation and support.
+                      </span>
+                    </AlertDialogHeader>
+
+                    <AlertDialogFooter>
+                      <AlertDialogCancel className="rounded-xl py-2">
+                        Back
+                      </AlertDialogCancel>
+                    </AlertDialogFooter>
+                  </AlertDialogContent>
+                </AlertDialog>
+              </div>
               <Link href="/short-video-competition" className="text-sm font-medium hover:bg-white/20 p-2 rounded-lg">
                 Short Video Competition
               </Link>
@@ -108,11 +135,27 @@ export default function Navbar() {
               </div>
             </DropdownMenuTrigger>
             <DropdownMenuContent className="bg-primary-color border-white/20 text-white">
-              <DropdownMenuItem>
-                <Link href="/abstract" className="text-sm font-medium">
-                  Abstract
-                </Link>
-              </DropdownMenuItem>
+              <div className="w-full flex">
+                <AlertDialog>
+                  <AlertDialogTrigger>
+                    <div className="text-sm font-medium py-1.5 px-2 rounded-md hover:bg-white hover:text-black text-left w-[200px]">Abstract</div>
+                  </AlertDialogTrigger>
+                  <AlertDialogContent>
+                    <AlertDialogHeader>
+                      <AlertDialogTitle>Abstract</AlertDialogTitle>
+                      <span>
+                        Abstract submission is now closed. We appreciate your participation and support.
+                      </span>
+                    </AlertDialogHeader>
+
+                    <AlertDialogFooter>
+                      <AlertDialogCancel className="rounded-xl py-2">
+                        Back
+                      </AlertDialogCancel>
+                    </AlertDialogFooter>
+                  </AlertDialogContent>
+                </AlertDialog>
+              </div>
               <DropdownMenuItem>
                 <Link href="/short-video-competition" className="text-sm font-medium">
                   Short Video Competition
