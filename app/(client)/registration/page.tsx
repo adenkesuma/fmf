@@ -41,7 +41,7 @@ export default function Registration() {
                   </svg>
                 </div>
                 <h4 className="mt-2 font-medium text-base text-center">Short Video Competition + Photography Competition Submission Deadline</h4>
-                <p className="text-base text-center text-primary-color">30 April 2025</p>
+                <p className="text-base text-center text-primary-color">15 Juni 2025</p>
               </div>
               <div className="w-full flex items-center justify-center flex-col border border-primary-color rounded-xl p-3">
                 <div className="flex items-center justify-center bg-yellow-400 w-14 h-14 rounded-full">
