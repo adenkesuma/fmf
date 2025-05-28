@@ -89,7 +89,7 @@ export default function InvitedSpeakers() {
             <button
               key={categoryNum}
               onClick={() => setActiveCategory(categoryNum)}
-              className={`px-6 py-3 rounded-lg font-medium text-lg transition-all ${
+              className={`px-6 py-2 rounded-xl font-medium text-lg transition-all ${
                 activeCategory === categoryNum
                   ? "bg-primary-color text-white"
                   : "bg-gray-200 text-gray-700 hover:bg-gray-300"
