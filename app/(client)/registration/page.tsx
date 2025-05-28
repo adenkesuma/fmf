@@ -213,7 +213,7 @@ export default function Registration() {
         <div className="flex flex-col border-t-4 mt-4 border-primary-color">
           <div className={`bg-blue-500/10 flex items-center border-x border-t`}>
             <div className="block text-sm w-full text-center p-2">
-              <span className="font-medium">MORNING SEASON</span>
+              <span className="font-medium">MORNING SESSION</span>
             </div>
           </div>
           <div className="flex items-center border-x border-b">
@@ -262,7 +262,7 @@ export default function Registration() {
         <div className="flex flex-col border-t-4 mt-4 border-primary-color">
           <div className={`bg-blue-500/10 flex items-center border-x border-t`}>
             <div className="block text-sm w-full text-center p-2">
-              <span className="font-medium">AFTERNOON SEASON</span>
+              <span className="font-medium">AFTERNOON SESSION</span>
             </div>
           </div>
           <div className="flex items-center border-x border-b">
