@@ -41,7 +41,7 @@ export default function Navbar() {
               <Link href={'/overview'} className="hover:bg-white/20 p-2 rounded-lg text-sm font-medium">Overview</Link>
               <Link href={'/organizing-commitee'} className="hover:bg-white/20 p-2 rounded-lg text-sm font-medium">Organizing Committee</Link>
               <Link href={'/program-at-glance'} className="hover:bg-white/20 p-2 rounded-lg text-sm font-medium">Program at a Glance</Link> 
-              <Link href={'#'} className="hover:bg-white/20 p-2 rounded-lg text-sm font-medium">Invited Speakers</Link>
+              <Link href={'/invited-speakers'} className="hover:bg-white/20 p-2 rounded-lg text-sm font-medium">Invited Speakers</Link>
               <div className="text-sm font-medium hover:bg-white/20 p-2 rounded-lg">
                 <AlertDialog>
                   <AlertDialogTrigger>
@@ -68,6 +68,9 @@ export default function Navbar() {
               </Link>
               <Link href="/photography-competition" className="text-sm font-medium hover:bg-white/20 p-2 rounded-lg">
                 Photography Competition
+              </Link>
+              <Link href="/awarding" className="text-sm font-medium hover:bg-white/20 p-2 rounded-lg">
+                Awarding  
               </Link>
               <Link href={'/registration'} className="hover:bg-white/20 p-2 rounded-lg text-sm font-medium">Registration</Link>
               <Link href={'/scientific-schedule'} className="hover:bg-white/20 p-2 rounded-lg shrink-0 text-sm font-medium">Scientific Schedule</Link>
@@ -118,7 +121,7 @@ export default function Navbar() {
                 <Link href={'/program-at-glance'} className="text-sm font-medium">Program at a Glance</Link>
               </DropdownMenuItem>
               <DropdownMenuItem>
-                <Link href={'#'} className="text-sm font-medium">Invited Speakers</Link>
+                <Link href={'/invited-speakers'} className="text-sm font-medium">Invited Speakers</Link>
               </DropdownMenuItem>
               <DropdownMenuItem>
                 <Link href={'/scientific-schedule'} className="text-sm font-medium">Scientific Schedule</Link>
@@ -128,7 +131,7 @@ export default function Navbar() {
           <DropdownMenu>
             <DropdownMenuTrigger className="outline-none border-none">
               <div className="text-black shrink-0 text-sm font-medium py-2 flex items-center gap-1">
-                <span className="shrink-0 block">Abstract Submission</span>
+                <span className="shrink-0 block">Awards & Competitions</span>
                 <svg className="size-4 block shrink-0" data-slot="icon" fill="none" strokeWidth="1.5" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
                   <path strokeLinecap="round" strokeLinejoin="round" d="m19.5 8.25-7.5 7.5-7.5-7.5"></path>
                 </svg>
@@ -164,6 +167,11 @@ export default function Navbar() {
               <DropdownMenuItem>
                 <Link href="/photography-competition" className="text-sm font-medium">
                   Photography Competition
+                </Link>
+              </DropdownMenuItem>
+              <DropdownMenuItem>
+                <Link href="/awarding" className="text-sm font-medium">
+                  Awarding
                 </Link>
               </DropdownMenuItem>
             </DropdownMenuContent>
