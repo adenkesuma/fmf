@@ -115,7 +115,7 @@ export default function Registration() {
             </div>
           </div>
         </div>
-        <div className="flex flex-col border-t-4 mt-4 border-primary-color">
+        <div className="flex flex-col border-t-4 mt-8 border-primary-color">
           <div className={`bg-blue-500/10 flex items-center border-x border-t`}>
             <div className="block text-sm w-full text-center p-2">
               <span className="font-medium">WORKSHOP</span>
@@ -138,7 +138,7 @@ export default function Registration() {
             </div>
           </div>
         </div>
-        <div className="flex flex-col border-t-4 mt-4 border-primary-color">
+        <div className="flex flex-col border-t-4 mt-8 border-primary-color">
           <div className={`bg-blue-500/10 flex items-center border-x border-t`}>
             <div className="block text-sm w-full text-center p-2">
               <span className="font-medium">BUNDLING - SYMPOSIUM + 1 WORKSHOP</span>
@@ -161,7 +161,7 @@ export default function Registration() {
             </div>
           </div>
         </div>
-        <div className="flex flex-col border-t-4 mt-4 border-primary-color">
+        <div className="flex flex-col border-t-4 mt-8 border-primary-color">
           <div className={`bg-blue-500/10 flex items-center border-x border-t`}>
             <div className="block text-sm w-full text-center p-2">
               <span className="font-medium">BUNDLING - SYMPOSIUM + 2 WORKSHOP</span>
@@ -259,7 +259,7 @@ export default function Registration() {
             </div>
           </div>
         </div>
-        <div className="flex flex-col border-t-4 mt-4 border-primary-color">
+        <div className="flex flex-col border-t-4 mt-8 border-primary-color">
           <div className={`bg-blue-500/10 flex items-center border-x border-t`}>
             <div className="block text-sm w-full text-center p-2">
               <span className="font-medium">AFTERNOON SESSION</span>
