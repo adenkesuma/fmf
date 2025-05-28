@@ -25,68 +25,71 @@ const Banner = () => {
           <CountdownCard eventDate="2025-06-26T00:00:00Z"/>
           <div className="mt-2 flex flex-col gap-2">
             <Link href="/registration" className="rounded-xl p-4 md:p-6 text-white text-xs md:text-sm font-semibold bg-primary-color w-full text-center hover:bg-blue-800 flex items-center justify-center">Registration</Link>
-            <div className="flex flex-row gap-2">
-              <div className="w-1/2">
-                <AlertDialog>
-                  <AlertDialogTrigger>
-                    <div className="rounded-xl p-4 md:p-6 text-white text-xs md:text-sm font-semibold bg-primary-color w-full text-center hover:bg-blue-800 flex items-center justify-center">Abstract Submission</div>
-                  </AlertDialogTrigger>
-                  <AlertDialogContent>
-                    <AlertDialogHeader>
-                      <AlertDialogTitle>Abstract Submission</AlertDialogTitle>
-                      <AlertDialog>
-                        <AlertDialogTrigger>
-                          <div className="flex items-center justify-between gap-2 text-white bg-primary-color text-sm font-normal w-full py-2 px-3 rounded-xl">
-                            <span>
-                              Abstract
-                            </span>
-                            <svg className="size-5" data-slot="icon" fill="none" strokeWidth="1.5" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
-                              <path strokeLinecap="round" strokeLinejoin="round" d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25"></path>
-                            </svg>
-                          </div>
-                        </AlertDialogTrigger>
-                        <AlertDialogContent>
-                          <AlertDialogHeader>
-                            <AlertDialogTitle>Abstract</AlertDialogTitle>
-                            <span>
-                              Abstract submission is now closed. We appreciate your participation and support.
-                            </span>
-                          </AlertDialogHeader>
-
-                          <AlertDialogFooter>
-                            <AlertDialogCancel className="rounded-xl py-2">
-                              Back
-                            </AlertDialogCancel>
-                          </AlertDialogFooter>
-                        </AlertDialogContent>
-                      </AlertDialog>
-                      <Link href="/short-video-competition" className="flex items-center justify-between gap-2 text-white bg-primary-color text-sm font-normal w-full py-2 px-3 rounded-xl">
-                        <span>
-                          Short Video Competition
-                        </span>
-                        <svg className="size-5" data-slot="icon" fill="none" strokeWidth="1.5" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
-                          <path strokeLinecap="round" strokeLinejoin="round" d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25"></path>
-                        </svg>
-                      </Link>
-                      <Link href="/photography-competition" className="flex items-center justify-between gap-2 text-white bg-primary-color text-sm font-normal w-full py-2 px-3 rounded-xl">
-                        <span>
-                          Photography Competition
-                        </span>
-                        <svg className="size-5" data-slot="icon" fill="none" strokeWidth="1.5" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
-                          <path strokeLinecap="round" strokeLinejoin="round" d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25"></path>
-                        </svg>
-                      </Link>
-                    </AlertDialogHeader>
-
-                    <AlertDialogFooter>
-                      <AlertDialogCancel className="rounded-xl py-2">
-                        Back
-                      </AlertDialogCancel>
-                    </AlertDialogFooter>
-                  </AlertDialogContent>
-                </AlertDialog>
-              </div>
-              <Link href="https://sites.google.com/view/pdkifmfawards" className="rounded-xl p-4 md:p-6 text-white text-xs md:text-sm font-semibold bg-primary-color w-1/2 text-center hover:bg-blue-800 flex items-center justify-center">Awarding</Link>
+            <div className="w-full">
+              <AlertDialog>
+                <AlertDialogTrigger className="w-full">
+                  <div className="rounded-xl p-4 md:p-6 text-white text-xs md:text-sm font-semibold bg-primary-color w-full text-center hover:bg-blue-800">Awarding & Competitions</div>
+                </AlertDialogTrigger>
+                <AlertDialogContent>
+                  <AlertDialogHeader>
+                    <AlertDialogTitle>Awarding & Competitions</AlertDialogTitle>
+                    <AlertDialog>
+                      <AlertDialogTrigger>
+                        <div className="flex items-center justify-between gap-2 text-white bg-primary-color text-sm font-normal w-full py-2 px-3 rounded-xl">
+                          <span>
+                            Abstract
+                          </span>
+                          <svg className="size-5" data-slot="icon" fill="none" strokeWidth="1.5" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                            <path strokeLinecap="round" strokeLinejoin="round" d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25"></path>
+                          </svg>
+                        </div>
+                      </AlertDialogTrigger>
+                      <AlertDialogContent>
+                        <AlertDialogHeader>
+                          <AlertDialogTitle>Abstract</AlertDialogTitle>
+                          <span>
+                            Abstract submission is now closed. We appreciate your participation and support.
+                          </span>
+                        </AlertDialogHeader>
+                        <AlertDialogFooter>
+                          <AlertDialogCancel className="rounded-xl py-2">
+                            Back
+                          </AlertDialogCancel>
+                        </AlertDialogFooter>
+                      </AlertDialogContent>
+                    </AlertDialog>
+                    <Link href="/short-video-competition" className="flex items-center justify-between gap-2 text-white bg-primary-color text-sm font-normal w-full py-2 px-3 rounded-xl">
+                      <span>
+                        Short Video Competition
+                      </span>
+                      <svg className="size-5" data-slot="icon" fill="none" strokeWidth="1.5" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                        <path strokeLinecap="round" strokeLinejoin="round" d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25"></path>
+                      </svg>
+                    </Link>
+                    <Link href="/photography-competition" className="flex items-center justify-between gap-2 text-white bg-primary-color text-sm font-normal w-full py-2 px-3 rounded-xl">
+                      <span>
+                        Photography Competition
+                      </span>
+                      <svg className="size-5" data-slot="icon" fill="none" strokeWidth="1.5" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                        <path strokeLinecap="round" strokeLinejoin="round" d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25"></path>
+                      </svg>
+                    </Link>
+                    <Link href="/awarding" className="flex items-center justify-between gap-2 text-white bg-primary-color text-sm font-normal w-full py-2 px-3 rounded-xl">
+                      <span>
+                        Awarding
+                      </span>
+                      <svg className="size-5" data-slot="icon" fill="none" strokeWidth="1.5" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                        <path strokeLinecap="round" strokeLinejoin="round" d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25"></path>
+                      </svg>
+                    </Link>
+                  </AlertDialogHeader>
+                  <AlertDialogFooter>
+                    <AlertDialogCancel className="rounded-xl py-2">
+                      Back
+                    </AlertDialogCancel>
+                  </AlertDialogFooter>
+                </AlertDialogContent>
+              </AlertDialog>
             </div>
           </div>
         </div>  
