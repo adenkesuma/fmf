@@ -2,15 +2,25 @@
 
 import BannerTitle from "@/components/banner-title";
 import React from 'react';
-import Image from 'next/image';
+import Image, { StaticImageData } from 'next/image';
 import Days1 from '@/public/images/day1.png';
 import Days2 from '@/public/images/day2.png';
 import Days3 from '@/public/images/day3.png';
 
+type DayData = {
+  date: string;
+  image: StaticImageData;
+};
+
+type DaysObject = {
+  [key: number]: DayData;
+};
+
+
 export default function ShortVideoCompetition() {
   const [activeDay, setActiveDay] = React.useState(1);
 
-  const days = {
+  const days: DaysObject = {
     1: {
       date: "Kamis, 26 Juni 2025 (specifically for PDKI administrators)",
       image: Days1

@@ -3,12 +3,29 @@
 import BannerTitle from "@/components/banner-title"
 import { useState } from "react";
 
+type Subcategory = {
+  name: string;
+  title: string;
+  link: string;
+};
+
+type Category = {
+  title: string;
+  description: string;
+  subcategories: Subcategory[];
+};
+
+type Categories = {
+  [key: number]: Category;
+};
+
+
 export default function InvitedSpeakers() {
   // State to track active category
   const [activeCategory, setActiveCategory] = useState(1);
 
   // Category data
-  const categories = {
+  const categories: Categories = {
     1: {
       title: "KATEGORI 1",
       description: "Penghargaan bagi Anggota PDKI Penghargaan untuk anggota yang menunjukkan dedikasi luar biasa dalam pelayanan kedokteran keluarga, inovasi praktik klinis, dan kontribusi aktif dalam pengembangan komunitas kesehatan.",
