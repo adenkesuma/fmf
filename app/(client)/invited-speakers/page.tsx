@@ -63,7 +63,7 @@ export default function InvitedSpeakers() {
 
                 <div className="mt-4 border-l-4 border-primary-color pl-3 bg-blue-100 w-full rounded-r-lg py-1">
                   <h4 className="text-base font-semibold">{speaker.name}</h4>
-                  <p className="text-xs font-normal slide-in-from-top-1">{speaker.desc}</p>
+                  
                 </div>
               </CardContent>
             </Card>
