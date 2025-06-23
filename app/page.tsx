@@ -5,6 +5,26 @@ import LeaderPerhimpunan from "@/public/images/isti.png";
 import LeaderPanitia from "@/public/images/novana.jpeg";
 import Link from "next/link";
 
+import Image1 from "@/public/images/1.png";
+import Image2 from "@/public/images/2.png";
+import Image3 from "@/public/images/3.png";
+import Image4 from "@/public/images/4.png";
+import Image5 from "@/public/images/5.png";
+import Image6 from "@/public/images/6.png";
+import Image7 from "@/public/images/7.png";
+import Image8 from "@/public/images/8.png";
+import Image9 from "@/public/images/9.png";
+import Image10 from "@/public/images/10.jpeg";
+import Image11 from "@/public/images/11.png";
+import Image12 from "@/public/images/12.png";
+import Image13 from "@/public/images/13.png";
+import Image14 from "@/public/images/14.png";
+import Image15 from "@/public/images/15.png";
+import Image16 from "@/public/images/16.png";
+import Image17 from "@/public/images/17.jpeg";
+import Image20 from "@/public/images/20.png";
+
+
 export default function Home() {
   return (
     <div className="h-full">
@@ -129,6 +149,66 @@ export default function Home() {
             <Link href={'/welcome-message'} className="underline text-sm text-primary-color font-bold block mt-3">See Detail</Link>
           </div>
         </div> 
+
+        <section className="py-6">
+      <h2 className="text-2xl md:text-3xl font-semibold text-center mb-8">Our Sponsors</h2>
+      <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-6 items-center justify-center">
+        <div className="relative w-full h-24 sm:h-28 md:h-32 lg:h-36">
+          <Image src={Image1} alt="Sponsor 1" fill className="object-contain" />
+        </div>
+        <div className="relative w-full h-24 sm:h-28 md:h-32 lg:h-36">
+          <Image src={Image2} alt="Sponsor 2" fill className="object-contain" />
+        </div>
+        <div className="relative w-full h-24 sm:h-28 md:h-32 lg:h-36">
+          <Image src={Image3} alt="Sponsor 3" fill className="object-contain" />
+        </div>
+        <div className="relative w-full h-24 sm:h-28 md:h-32 lg:h-36">
+          <Image src={Image4} alt="Sponsor 4" fill className="object-contain" />
+        </div>
+        <div className="relative w-full h-24 sm:h-28 md:h-32 lg:h-36">
+          <Image src={Image5} alt="Sponsor 5" fill className="object-contain" />
+        </div>
+        <div className="relative w-full h-24 sm:h-28 md:h-32 lg:h-36">
+          <Image src={Image6} alt="Sponsor 6" fill className="object-contain" />
+        </div>
+        <div className="relative w-full h-24 sm:h-28 md:h-32 lg:h-36">
+          <Image src={Image7} alt="Sponsor 7" fill className="object-contain" />
+        </div>
+        <div className="relative w-full h-24 sm:h-28 md:h-32 lg:h-36">
+          <Image src={Image8} alt="Sponsor 8" fill className="object-contain" />
+        </div>
+        <div className="relative w-full h-24 sm:h-28 md:h-32 lg:h-36">
+          <Image src={Image9} alt="Sponsor 9" fill className="object-contain" />
+        </div>
+        <div className="relative w-full h-24 sm:h-28 md:h-32 lg:h-36">
+          <Image src={Image10} alt="Sponsor 10" fill className="object-contain" />
+        </div>
+        <div className="relative w-full h-24 sm:h-28 md:h-32 lg:h-36">
+          <Image src={Image11} alt="Sponsor 11" fill className="object-contain" />
+        </div>
+        <div className="relative w-full h-24 sm:h-28 md:h-32 lg:h-36">
+          <Image src={Image12} alt="Sponsor 12" fill className="object-contain" />
+        </div>
+        <div className="relative w-full h-24 sm:h-28 md:h-32 lg:h-36">
+          <Image src={Image13} alt="Sponsor 13" fill className="object-contain" />
+        </div>
+        <div className="relative w-full h-24 sm:h-28 md:h-32 lg:h-36">
+          <Image src={Image14} alt="Sponsor 14" fill className="object-contain" />
+        </div>
+        <div className="relative w-full h-24 sm:h-28 md:h-32 lg:h-36">
+          <Image src={Image15} alt="Sponsor 15" fill className="object-contain" />
+        </div>
+        <div className="relative w-full h-24 sm:h-28 md:h-32 lg:h-36">
+          <Image src={Image16} alt="Sponsor 16" fill className="object-contain" />
+        </div>
+        <div className="relative w-full h-24 sm:h-28 md:h-32 lg:h-36">
+          <Image src={Image17} alt="Sponsor 17" fill className="object-contain" />
+        </div>
+        <div className="relative w-full h-24 sm:h-28 md:h-32 lg:h-36">
+          <Image src={Image20} alt="Sponsor 20" fill className="object-contain" />
+        </div>
+      </div>
+    </section>
       </div>
     </div>
   );
