@@ -22,8 +22,8 @@ import Image14 from "@/public/images/14.png";
 import Image15 from "@/public/images/15.png";
 import Image16 from "@/public/images/16.png";
 import Image17 from "@/public/images/17.jpeg";
-import Image17 from "@/public/images/18.png";
-import Image20 from "@/public/images/19.png";
+import Image18 from "@/public/images/18.png";
+import Image19 from "@/public/images/19.png";
 import Image20 from "@/public/images/20.png";
 
 
