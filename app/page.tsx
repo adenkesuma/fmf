@@ -22,6 +22,8 @@ import Image14 from "@/public/images/14.png";
 import Image15 from "@/public/images/15.png";
 import Image16 from "@/public/images/16.png";
 import Image17 from "@/public/images/17.jpeg";
+import Image17 from "@/public/images/18.png";
+import Image20 from "@/public/images/19.png";
 import Image20 from "@/public/images/20.png";
 
 
@@ -203,6 +205,12 @@ export default function Home() {
         </div>
         <div className="relative w-full h-24 sm:h-28 md:h-32 lg:h-36">
           <Image src={Image17} alt="Sponsor 17" fill className="object-contain" />
+        </div>
+         <div className="relative w-full h-24 sm:h-28 md:h-32 lg:h-36">
+          <Image src={Image18} alt="Sponsor 18" fill className="object-contain" />
+        </div>
+         <div className="relative w-full h-24 sm:h-28 md:h-32 lg:h-36">
+          <Image src={Image19} alt="Sponsor 19" fill className="object-contain" />
         </div>
         <div className="relative w-full h-24 sm:h-28 md:h-32 lg:h-36">
           <Image src={Image20} alt="Sponsor 20" fill className="object-contain" />
