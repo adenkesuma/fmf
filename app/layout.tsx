@@ -20,7 +20,7 @@ export const metadata: Metadata = {
   title: "Family Medicine Forum",
   description: "A doctor organization",
   icons: {
-    icon: '/logo.png',
+    icon: '/favicon.ico',
   }
 };
 
@@ -32,7 +32,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <Head>
-        <link rel='icon' href='./logo.png'/>
+        <link rel='icon' href='./favicon.ico'/>
       </Head>
       <body
         className={`${geistSans.variable} ${NunitoSans.variable} antialiased`}
