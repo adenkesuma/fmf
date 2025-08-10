@@ -4,6 +4,7 @@ import "./globals.css";
 import Navbar from "@/components/navbar";
 import Footer from "@/components/footer";
 import { Toaster } from "@/components/ui/toaster";
+import Head from "next/head";
 
 const geistSans = Nunito_Sans({
   variable: "--font-geist-sans",
