@@ -21,9 +21,12 @@ export default function Navbar() {
   return (
     <div className="bg-primary-color">
       <div className="container px-4 lg:px-20 mx-auto flex items-center justify-between py-3">
-        <Link href={'/'}>
-          <Image src={Logo} alt="logo" className="w-28"/>
-        </Link>
+        <div className="flex items-center gap-2">
+          <Link href={'/'}>
+            <Image src={Logo} alt="logo" className="w-28"/>
+          </Link>
+          <div className="rounded-xl px-2 py-1 text-xs font-semibold text-yellow-500 border border-yellow-500">Official Website</div>
+        </div>
         <Link className="text-sm font-medium text-white hidden lg:block" href={'/'}>Home</Link>
         {/* hamburger menu */}
         <div className="block lg:hidden">
